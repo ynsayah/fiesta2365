@@ -10,7 +10,7 @@ const months = [...Array(12).keys()].map((m) => {
   const lead = (first.getUTCDay() + 6) % 7;
   const cells = [...Array(lead).fill(null), ...[...Array(days).keys()].map((d) => {
     const iso = `${year}-${String(m + 1).padStart(2, '0')}-${String(d + 1).padStart(2, '0')}`;
-    return { d: d + 1, iso, ev: FETES.filter((f) => f.dates[0].start <= iso && iso <= f.dates[0].end) };
+    return { d: d + 1, iso, ev: FETES.filter((f) => f.dates[0].start <= iso && iso <= f.dates[0].end).sort((a, b) => (b.dates[0].start === iso) - (a.dates[0].start === iso) || (Date.parse(a.dates[0].end) - Date.parse(a.dates[0].start)) - (Date.parse(b.dates[0].end) - Date.parse(b.dates[0].start))) };
   })];
   return { m, cells, count: new Set(cells.flatMap((c) => (c ? c.ev.map((e) => e.slug) : []))).size };
 });
