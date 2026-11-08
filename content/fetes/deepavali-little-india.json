@@ -1,0 +1,63 @@
+{
+  "slug": "deepavali-little-india",
+  "continent": "asie",
+  "category": "lumieres",
+  "fame": "celebre",
+  "geo": {
+    "lat": 1.3066,
+    "lng": 103.8518
+  },
+  "place": "Serangoon Road, Singapour (et Malaisie)",
+  "country": {
+    "fr": "Singapour",
+    "en": "Singapore"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire hindou : Deepavali",
+  "name": {
+    "fr": "Deepavali à Little India",
+    "en": "Deepavali in Little India"
+  },
+  "description": {
+    "fr": "Arches de lumière au-dessus de Serangoon Road, bazars de guirlandes et de saris, kolams à l'entrée des maisons tamoules et open houses en Malaisie.",
+    "en": "Arches of light over Serangoon Road, bazaars of garlands and saris, kolams at Tamil doorways and open houses in Malaysia."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Deepavali_14,_Little_India,_Singapore,_Oct_06.JPG",
+      "caption": {
+        "fr": "Little India illuminée"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "2UuVcKrSGkQ"
+    },
+    {
+      "id": "6Lg_vgfAFDk"
+    },
+    {
+      "id": "3633KvO4svw"
+    },
+    {
+      "id": "HTDSQrGFYwY"
+    }
+  ],
+  "sources": [
+    "https://www.destination-asia.com/news/experiences-calendar-2026/november-2026/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

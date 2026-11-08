@@ -1,0 +1,63 @@
+{
+  "slug": "deepotsav-ayodhya",
+  "continent": "asie",
+  "category": "lumieres",
+  "fame": "celebre",
+  "geo": {
+    "lat": 26.799,
+    "lng": 82.204
+  },
+  "place": "Ayodhya, Uttar Pradesh",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-05",
+      "end": "2026-11-07"
+    }
+  ],
+  "rule": "Lunaire hindou : veille de Diwali",
+  "name": {
+    "fr": "Deepotsav",
+    "en": "Deepotsav"
+  },
+  "description": {
+    "fr": "3,3 millions de lampes à huile alignées sur deux kilomètres de ghats de la Saryu, allumées par 34 000 bénévoles.",
+    "en": "3.3 million oil lamps lined along two kilometres of ghats on the Saryu, lit by 34,000 volunteers."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Ram_Paidi_Ayodhya.jpg",
+      "caption": {
+        "fr": "Ram ki Paidi, Ayodhya"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "7JeMLjkwfkM"
+    },
+    {
+      "id": "OHIg4mm-9DU"
+    },
+    {
+      "id": "BcIBRoFc2Yw"
+    },
+    {
+      "id": "RHg-u_2Mpjs"
+    }
+  ],
+  "sources": [
+    "https://organiser.org/2026/10/10/384717/bharat/ayodhya-deepotsav-2026-33-lakh-diyas-to-illuminate-ram-ki-paidi-and-saryu-riverfront-from-november-5-to-7/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

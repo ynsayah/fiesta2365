@@ -1,0 +1,71 @@
+{
+  "slug": "hogbetsotso-za",
+  "continent": "afrique",
+  "category": "ancestrale",
+  "fame": "regional",
+  "geo": {
+    "lat": 5.793,
+    "lng": 0.897
+  },
+  "place": "Anloga, région de la Volta",
+  "country": {
+    "fr": "Ghana",
+    "en": "Ghana"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-02",
+      "end": "2026-11-07"
+    }
+  ],
+  "rule": "Annuel : première semaine de novembre, grand durbar le samedi",
+  "name": {
+    "fr": "Hogbetsotso Za",
+    "en": "Hogbetsotso Za"
+  },
+  "description": {
+    "fr": "Les Anlo-Ewe rejouent leur fuite du royaume de Notsé, où leurs ancêtres auraient marché à reculons pour effacer leurs traces. Rites de réconciliation, puis grand durbar des chefs en palanquin sous les parasols royaux, au son des tambours atsiagbekor.",
+    "en": "The Anlo-Ewe re-enact their escape from Notsie, where their ancestors are said to have walked backwards to hide their tracks. Reconciliation rites, then a grand durbar of chiefs carried in palanquins under royal umbrellas to atsiagbekor drums."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Torgbui_sri_III.jpg",
+      "caption": {
+        "fr": "Togbi Sri III, roi des Anlo"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "House_in_Anloga.jpg",
+      "caption": {
+        "fr": "Une maison d'Anloga"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "R3bUpSn_mgU"
+    },
+    {
+      "id": "zumri8Krnb4"
+    },
+    {
+      "id": "yQnmZYJD7Zw"
+    },
+    {
+      "id": "T1qKvX7Sz38"
+    }
+  ],
+  "sources": [
+    "https://gna.org.gh/2026/10/chiefs-people-of-anlo-hold-hogbetsotso-za-2026-media-launch/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

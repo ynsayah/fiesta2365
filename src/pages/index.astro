@@ -1,0 +1,15 @@
+---
+import { LANGS } from '../i18n/ui.js';
+---
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8" /><title>Fiesta365</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="canonical" href="https://fiesta365.org/fr/" />
+{LANGS.map((l) => <link rel="alternate" hreflang={l} href={`https://fiesta365.org/${l}/`} />)}
+<meta http-equiv="refresh" content="0; url=fr/" />
+<script is:inline define:vars={{ LANGS }}>
+var p=(navigator.languages||[navigator.language||'fr']).map(function(x){return x.slice(0,2).toLowerCase()});
+var l=p.find(function(x){return LANGS.indexOf(x)>=0})||'fr';
+location.replace(l+'/'+(document.documentElement.dataset.idx||''));
+</script></head>
+<body style="background:#121A3A;color:#EEF1F6;font-family:system-ui;padding:2rem"><a href="fr/" style="color:#E8A33D">Fiesta365</a></body></html>

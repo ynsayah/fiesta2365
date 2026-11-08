@@ -1,0 +1,71 @@
+{
+  "slug": "tar-barrels-ottery",
+  "continent": "europe",
+  "category": "ancestrale",
+  "fame": "regional",
+  "geo": {
+    "lat": 50.752,
+    "lng": -3.28
+  },
+  "place": "Ottery St Mary, Devon",
+  "country": {
+    "fr": "Royaume-Uni",
+    "en": "United Kingdom"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-05",
+      "end": "2026-11-05"
+    }
+  ],
+  "rule": "Fixe : 5 novembre",
+  "name": {
+    "fr": "Tar Barrels d'Ottery St Mary",
+    "en": "Ottery St Mary Tar Barrels"
+  },
+  "description": {
+    "fr": "Les habitants portent à bout de bras des tonneaux de goudron enflammés dans les rues bondées, d'une auberge à l'autre, jusqu'au « Midnight Barrel » sur la place.",
+    "en": "Locals carry blazing tar barrels on their shoulders through packed streets, from pub to pub, until the Midnight Barrel in the square."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Burning_tar_barrels,_Ottery_St_Mary_-_geograph.org.uk_-_970543.jpg",
+      "caption": {
+        "fr": "Tonneaux enflammés"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Tar_barrels_-_Ottery_st_Mary,_Devon,_England_-_4.jpg",
+      "caption": {
+        "fr": "Porteur de tonneau"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "QRYh-Sq5IlM"
+    },
+    {
+      "id": "q8UnDk0kwbI"
+    },
+    {
+      "id": "n_I8473VXTo"
+    },
+    {
+      "id": "OLh69I10eCM"
+    }
+  ],
+  "sources": [
+    "https://www.visitdevon.info/whats-on/festivals/the-tar-barrels-of-ottery-st-mary"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

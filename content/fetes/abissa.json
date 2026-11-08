@@ -1,0 +1,71 @@
+{
+  "slug": "abissa",
+  "continent": "afrique",
+  "category": "ancestrale",
+  "fame": "regional",
+  "geo": {
+    "lat": 5.2007,
+    "lng": -3.738
+  },
+  "place": "Quartier France, Grand-Bassam",
+  "country": {
+    "fr": "Côte d'Ivoire",
+    "en": "Côte d'Ivoire"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Annuel : fin octobre - début novembre",
+  "name": {
+    "fr": "Abissa, fête des N'zima",
+    "en": "Abissa, N'zima festival"
+  },
+  "description": {
+    "fr": "Nouvel an et fête du pardon du peuple N'zima : au son du tambour sacré, chacun peut critiquer publiquement les puissants, rois compris, avant la réconciliation. Danses et travestissements dans la ville coloniale classée à l'UNESCO.",
+    "en": "New year and festival of forgiveness of the N'zima people: to the sacred drum, anyone may publicly criticise the powerful, kings included, before reconciliation. Dances and cross-dressing in the UNESCO-listed colonial town."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Place_Abissa_de_Grand-Bassam.jpg",
+      "caption": {
+        "fr": "La place Abissa"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Nobles_N'Zima.JPG",
+      "caption": {
+        "fr": "Notables n'zima"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "G4xFFTy5jms"
+    },
+    {
+      "id": "cIFMpEES3bA"
+    },
+    {
+      "id": "EH7ydiix0zM"
+    },
+    {
+      "id": "gX9FwM4_9O0"
+    }
+  ],
+  "sources": [
+    "https://www.aip.ci/cote-divoire-aip-labissa-2026-place-sous-le-signe-des-valeurs-universelles-et-du-developpement-durable/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

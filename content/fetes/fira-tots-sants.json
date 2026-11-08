@@ -1,0 +1,41 @@
+{
+  "slug": "fira-tots-sants",
+  "continent": "europe",
+  "category": "foire",
+  "fame": "regional",
+  "geo": {
+    "lat": 38.745,
+    "lng": -0.44
+  },
+  "place": "Cocentaina, Alicante",
+  "country": {
+    "fr": "Espagne",
+    "en": "Spain"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-10-29",
+      "end": "2026-11-02"
+    }
+  ],
+  "rule": "Annuel : autour de la Toussaint",
+  "name": {
+    "fr": "Fira de Tots Sants",
+    "en": "All Saints Fair"
+  },
+  "description": {
+    "fr": "680e édition d'une foire créée par privilège royal en 1346 : souk, marché médiéval, foire aux chevaux et Porrat valencien dans les ruelles du bourg.",
+    "en": "680th edition of a fair founded by royal charter in 1346: souk, medieval market, horse fair and Valencian Porrat in the town's lanes."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://www.valenciabonita.es/2026/10/14/fira-de-tots-sants-cocentaina-2026/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

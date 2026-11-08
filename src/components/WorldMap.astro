@@ -1,0 +1,54 @@
+---
+import { W, H, project } from '../lib/map.js';
+import { FETES, nameOf, L } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+const { lang, focus = null, compact = false, id = 'wm' } = Astro.props;
+const T = t(lang);
+const list = focus ? FETES.filter((f) => f.slug === focus) : FETES;
+---
+<div class="worldmap" id={id} data-lang={lang} data-see={T.see_fete}>
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={T.map_title}>
+    <image href="/world.svg" x="0" y="0" width={W} height={H} />
+    <g class="dots">
+      {list.map((f) => { const p = project(f.geo.lat, f.geo.lng); return (
+        <a class="dot" href={`/${lang}/festivals/${f.slug}/`} data-s={f.slug} data-k={f.continent} data-t={f.category} data-a={f.dates[0].start} data-b={f.dates[0].end}
+           data-n={nameOf(f, lang)} data-p={`${f.place} · ${L(f.country, lang).text}`} tabindex="0" aria-label={nameOf(f, lang)}>
+          <circle class="halo" cx={p.x} cy={p.y} r={compact ? 9 : 7} />
+          <circle class="core" cx={p.x} cy={p.y} r={compact ? 5 : 3.6} />
+        </a>); })}
+    </g>
+  </svg>
+  {!compact && <div class="maptip" hidden role="dialog" aria-live="polite"><h3></h3><p class="w"></p><p class="d"></p><a href="#">{T.see_fete}</a></div>}
+</div>
+<script is:inline define:vars={{ id, compact }}>
+(function(){
+  var root=document.getElementById(id); if(!root) return;
+  var today=new Date(); var iso=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
+  var dots=root.querySelectorAll('.dot');
+  dots.forEach(function(d){ if(d.dataset.a<=iso && iso<=d.dataset.b) d.classList.add('now'); });
+  if(compact) return;
+  var tip=root.querySelector('.maptip');
+  function show(d){
+    var r=d.getBoundingClientRect(), R=root.getBoundingClientRect();
+    tip.querySelector('h3').textContent=d.dataset.n; tip.querySelector('.w').textContent=d.dataset.p;
+    tip.querySelector('.d').textContent=d.dataset.when||'';
+    tip.querySelector('a').href=d.getAttribute('href');
+    tip.hidden=false;
+    var x=r.left-R.left+r.width/2, y=r.top-R.top;
+    var tw=tip.offsetWidth, th=tip.offsetHeight;
+    x=Math.max(8,Math.min(R.width-tw-8,x-tw/2)); y=y-th-14; if(y<8) y=r.top-R.top+r.height+14;
+    tip.style.left=x+'px'; tip.style.top=y+'px';
+  }
+  dots.forEach(function(d){
+    d.addEventListener('pointerdown',function(e){ root.dataset.ptr=e.pointerType; });
+    d.addEventListener('click',function(e){ if(root.dataset.ptr==='mouse') return; if(!tip.hidden && tip.dataset.cur===d.dataset.s && tip.dataset.via==='click') return; e.preventDefault(); tip.dataset.cur=d.dataset.s; tip.dataset.via='click'; show(d); });
+    d.addEventListener('mouseenter',function(){ tip.dataset.cur=d.dataset.s; tip.dataset.via='hover'; show(d); });
+    d.addEventListener('focus',function(){ tip.dataset.cur=d.dataset.s; tip.dataset.via='click'; show(d); });
+    d.addEventListener('keydown',function(e){ if(e.key==='Enter'){ location.href=d.getAttribute('href'); } });
+  });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') tip.hidden=true; });
+  root.addEventListener('mouseleave',function(){ /* garder la bulle visible pour pouvoir cliquer */ });
+  window.f365Filter=window.f365Filter||{};
+  window.f365Filter[id]=function(pred){ dots.forEach(function(d){ d.classList.toggle('dim', !pred(d.dataset)); }); tip.hidden=true; };
+})();
+</script>

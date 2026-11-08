@@ -1,0 +1,63 @@
+{
+  "slug": "bandi-chhor-divas",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "regional",
+  "geo": {
+    "lat": 31.62,
+    "lng": 74.8765
+  },
+  "place": "Temple d'Or, Amritsar, Pendjab",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire : jour de Diwali",
+  "name": {
+    "fr": "Bandi Chhor Divas",
+    "en": "Bandi Chhor Divas"
+  },
+  "description": {
+    "fr": "Les sikhs fêtent la libération du gourou Hargobind : le Harmandir Sahib et son bassin s'illuminent, feux d'artifice sur la vieille ville.",
+    "en": "Sikhs celebrate Guru Hargobind's release: the Harmandir Sahib and its pool are illuminated, with fireworks over the old city."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Golden_Temple,_Amritsar_at_night.JPG",
+      "caption": {
+        "fr": "Le Temple d'Or la nuit"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "I_El4QwkLS8"
+    },
+    {
+      "id": "XVnOJPFddeA"
+    },
+    {
+      "id": "UuhxUYyar4c"
+    },
+    {
+      "id": "5Jd0v6qQlEk"
+    }
+  ],
+  "sources": [
+    "https://hindutone.com/festivals/diwali-2026-punjab/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,49 @@
+---
+// Bloc forum : lit /api/forum/list.php et poste vers /api/forum/post.php (backend PHP sur o2switch).
+// Sans backend (aperçu, hors ligne), affiche un message clair au lieu d'un formulaire cassé.
+import { t } from '../i18n/ui.js';
+const { lang, fete = '', title } = Astro.props;
+const T = t(lang);
+const uid = 'fo' + Math.random().toString(36).slice(2, 7);
+---
+<div class="forum" id={uid} data-fete={fete} data-lang={lang}
+  data-empty={T.forum_empty} data-offline={T.forum_offline} data-sent={T.forum_sent} data-err={T.forum_error} data-reply={T.forum_reply}>
+  <div class="section-head"><h2 style="font-size:var(--step-2)">{title}</h2><p>{T.forum_intro}</p></div>
+  <div class="two">
+    <div class="thread" aria-live="polite"><p class="note">…</p></div>
+    <form class="stack" novalidate>
+      <label>{T.forum_name}<input name="name" required maxlength="40" autocomplete="nickname" /></label>
+      <label>{T.forum_email}<small>{T.forum_email_hint}</small><input name="email" type="email" required maxlength="120" autocomplete="email" /></label>
+      {!fete && <label>{T.forum_subject}<input name="subject" maxlength="120" /></label>}
+      <label>{T.forum_message}<textarea name="body" required maxlength="4000"></textarea></label>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <button class="btn action" type="submit">{T.forum_send}</button>
+      <p class="out" role="status"></p>
+    </form>
+  </div>
+</div>
+<script is:inline define:vars={{ uid }}>
+(function(){
+  var root=document.getElementById(uid), th=root.querySelector('.thread'), form=root.querySelector('form'), out=root.querySelector('.out');
+  var api='/api/forum/'; var fete=root.dataset.fete;
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function offline(){ th.innerHTML='<p class="msg">'+esc(root.dataset.offline)+'</p>'; form.querySelector('button').disabled=true; }
+  if(location.protocol==='file:' || !/fiesta365\.org$|localhost|127\.0\.0\.1/.test(location.hostname)){ offline(); return; }
+  fetch(api+'list.php?fete='+encodeURIComponent(fete)+'&lang='+root.dataset.lang,{headers:{Accept:'application/json'}})
+    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(j){
+      if(!j.posts||!j.posts.length){ th.innerHTML='<p class="note">'+esc(root.dataset.empty)+'</p>'; return; }
+      th.innerHTML=j.posts.map(function(p){
+        return '<article class="post'+(p.parent_id?' reply':'')+'"><span class="meta">'+esc(p.name)+(p.is_team?' · Fiesta365':'')+' · '+esc(p.created_at.slice(0,10))+(p.fete&&!fete?' · <a href="../festivals/'+esc(p.fete)+'/">'+esc(p.fete)+'</a>':'')+'</span>'+(p.subject?'<strong>'+esc(p.subject)+'</strong>':'')+'<p>'+esc(p.body).replace(/\n/g,'<br>')+'</p></article>';
+      }).join('');
+    }).catch(offline);
+  form.addEventListener('submit',function(e){
+    e.preventDefault(); out.className='out'; out.textContent='';
+    if(!form.checkValidity()){ form.reportValidity(); return; }
+    var data=new FormData(form); data.append('fete',fete); data.append('lang',root.dataset.lang);
+    fetch(api+'post.php',{method:'POST',body:data}).then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j}})})
+      .then(function(x){ if(!x.ok) throw x; out.className='out msg'; out.textContent=root.dataset.sent; form.reset(); })
+      .catch(function(){ out.className='out msg err'; out.textContent=root.dataset.err; });
+  });
+})();
+</script>

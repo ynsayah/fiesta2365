@@ -1,0 +1,63 @@
+{
+  "slug": "martinovo-smartno",
+  "continent": "europe",
+  "category": "recolte",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 45.96,
+    "lng": 13.548
+  },
+  "place": "Šmartno, Goriška Brda",
+  "country": {
+    "fr": "Slovénie",
+    "en": "Slovenia"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-07",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Annuel : autour de la Saint-Martin",
+  "name": {
+    "fr": "Martinovo v Šmartnem",
+    "en": "St Martin's in Šmartno"
+  },
+  "description": {
+    "fr": "Dans un village fortifié médiéval des collines des Brda, les vignerons font goûter le vin nouveau de la Saint-Martin, avec produits du terroir et concerts.",
+    "en": "In a fortified medieval village in the Brda hills, winemakers pour the new St Martin's wine, with local produce and concerts."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Smartno-GoriskaBrda.jpg",
+      "caption": {
+        "fr": "Šmartno"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "ncVnJbhVzY4"
+    },
+    {
+      "id": "FG35UMQ7xLQ"
+    },
+    {
+      "id": "kCrqp9jyods"
+    },
+    {
+      "id": "W3w4wNtI5SI"
+    }
+  ],
+  "sources": [
+    "https://www.slovenia.info/sl/dozivetja/dogodki/26725-martinovo-v-smartnem"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

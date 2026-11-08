@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import WorldMap from '../../components/WorldMap.astro';
+import FeteCard from '../../components/FeteCard.astro';
+import { LANGS, t, fmt, LOCALES } from '../../i18n/ui.js';
+import { FETES, CONTINENTS, clientIndex } from '../../lib/data.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params;
+const T = t(lang);
+const BUILD = new Date().toISOString().slice(0, 10);
+const active = (iso) => FETES.filter((f) => f.dates[0].start <= iso && iso <= f.dates[0].end);
+const now = active(BUILD);
+const upcoming = FETES.filter((f) => f.dates[0].end >= BUILD);
+const featured = (upcoming.filter((f) => f.featured).length >= 3 ? upcoming.filter((f) => f.featured) : FETES.filter((f) => f.featured)).slice(0, 6);
+const byCont = CONTINENTS.map((k) => [k, FETES.filter((f) => f.continent === k).length]);
+const idx = clientIndex(lang);
+const jsonld = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Fiesta365', url: 'https://fiesta365.org/', inLanguage: lang, potentialAction: { '@type': 'SearchAction', target: `https://fiesta365.org/${lang}/search/?q={q}`, 'query-input': 'required name=q' } };
+---
+<Base lang={lang} title="Fiesta365" description={T.hero_sub} path="" jsonld={jsonld}>
+  <section class="night hero">
+    <div class="wrap">
+      <div class="hero-head">
+        <span class="hero-date" id="herodate">{new Date(BUILD + 'T12:00:00Z').toLocaleDateString(LOCALES[lang], { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</span>
+        <h1 id="herotitle" data-tpl={T.hero_now} data-tpl1={T.hero_now_1} data-none={T.hero_none}>{now.length > 1 ? fmt(T.hero_now, { n: now.length }) : now.length === 1 ? T.hero_now_1 : T.hero_none}</h1>
+        <p>{T.hero_sub}</p>
+        <div class="cta"><a class="btn primary" href={`/${lang}/map/`}>{T.cta_map}</a><a class="btn ghost" href={`/${lang}/calendar/`}>{T.cta_calendar}</a></div>
+      </div>
+      <WorldMap lang={lang} id="homemap" />
+    </div>
+  </section>
+
+  <section class="section wrap" aria-labelledby="h-now">
+    <div class="section-head"><h2 id="h-now">{T.today}</h2></div>
+    <div class="rail" id="nowrail">
+      {FETES.map((f) => <div data-a={f.dates[0].start} data-b={f.dates[0].end} hidden={!(f.dates[0].start <= BUILD && BUILD <= f.dates[0].end)}><FeteCard lang={lang} f={f} /></div>)}
+    </div>
+  </section>
+
+  <section class="section wrap" aria-labelledby="h-week" style="padding-top:0">
+    <div class="section-head"><h2 id="h-week">{T.this_week}</h2></div>
+    <div class="week" id="week" data-locale={LOCALES[lang]} data-ongoing={T.ongoing}></div>
+  </section>
+
+  <section class="section night" aria-labelledby="h-fav">
+    <div class="wrap">
+      <div class="section-head"><h2 id="h-fav" style="color:#F6F2E8">{T.favorites}</h2><p style="color:#C9D0E6">{T.favorites_sub}</p></div>
+      <div class="rail r3">{featured.slice(0, 3).map((f) => <FeteCard lang={lang} f={f} big />)}</div>
+    </div>
+  </section>
+
+  <section class="section wrap" aria-labelledby="h-cont">
+    <div class="section-head"><h2 id="h-cont">{T.by_continent}</h2></div>
+    <div class="grid">
+      {byCont.map(([k, n]) => <a class="card" href={`/${lang}/map/#${k}`} style="text-decoration:none"><div class="body"><h3>{T.cont_l[k]}</h3><span class="where">{n === 1 ? T.count_1 : fmt(T.count, { n })}</span></div></a>)}
+    </div>
+    <p style="margin-top:28px"><a class="btn action" href={`/${lang}/search/`}>{T.all_festivals}</a></p>
+  </section>
+
+  <script is:inline define:vars={{ idx, lang }}>
+  (function(){
+    var d=new Date(); function iso(x){return x.getFullYear()+'-'+String(x.getMonth()+1).padStart(2,'0')+'-'+String(x.getDate()).padStart(2,'0');}
+    var today=iso(d);
+    var loc=document.getElementById('week').dataset.locale;
+    document.getElementById('herodate').textContent=d.toLocaleDateString(loc,{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+    var now=idx.filter(function(f){return f.a<=today&&today<=f.b});
+    var h=document.getElementById('herotitle');
+    h.innerHTML='';
+    if(now.length>1){var parts=h.dataset.tpl.split('{n}');h.append(parts[0]);var s=document.createElement('span');s.className='n';s.textContent=now.length;h.append(s);h.append(parts[1]||'');}
+    else h.textContent=now.length===1?h.dataset.tpl1:h.dataset.none;
+    var shown=0;
+    document.querySelectorAll('#nowrail > div').forEach(function(el){var on=el.dataset.a<=today&&today<=el.dataset.b;el.hidden=!on;if(on)shown++;});
+    if(!shown){ // rien aujourd'hui : afficher les prochaines
+      var next=Array.from(document.querySelectorAll('#nowrail > div')).filter(function(el){return el.dataset.a>today}).slice(0,6);
+      next.forEach(function(el){el.hidden=false});
+    }
+    var wk=document.getElementById('week'); var html='';
+    for(var i=0;i<7;i++){var x=new Date(d);x.setDate(d.getDate()+i);var k=iso(x);
+      var items=idx.filter(function(f){return i===0 ? (f.a<=k&&k<=f.b) : f.a===k});
+      var running=idx.filter(function(f){return f.a<k&&k<=f.b}).length;
+      var base=document.documentElement.dataset.base||'/', suf=document.documentElement.dataset.idx||'';
+      html+='<div class="day'+(i===0?' is-today':'')+'"><span class="dnum">'+x.getDate()+'</span><span class="dname">'+x.toLocaleDateString(loc,{weekday:'long'})+'</span><ul>'+
+        items.slice(0,i===0?8:5).map(function(f){return '<li><a href="'+base+lang+'/festivals/'+f.s+'/'+suf+'">'+f.n.replace(/</g,'&lt;')+'</a></li>'}).join('')+
+        (items.length>(i===0?8:5)?'<li>+'+(items.length-(i===0?8:5))+'</li>':'')+'</ul>'+(i>0&&running?'<span class="note">+'+running+' '+wk.dataset.ongoing+'</span>':'')+'</div>';}
+    wk.innerHTML=html;
+  })();
+  </script>
+</Base>

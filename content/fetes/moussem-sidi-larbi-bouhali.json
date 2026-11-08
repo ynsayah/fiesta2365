@@ -1,0 +1,68 @@
+{
+  "slug": "moussem-sidi-larbi-bouhali",
+  "continent": "afrique",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 33.824,
+    "lng": -6.066
+  },
+  "place": "Province de Khémisset, pays zemmour",
+  "country": {
+    "fr": "Maroc",
+    "en": "Morocco"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-02",
+      "end": "2026-11-10"
+    }
+  ],
+  "rule": "Annuel (calendrier local)",
+  "name": {
+    "fr": "Moussem de Sidi Larbi Bouhali",
+    "en": "Moussem of Sidi Larbi Bouhali"
+  },
+  "description": {
+    "fr": "Moussem rural de neuf jours autour du sanctuaire du saint. Ces moussems rassemblent traditionnellement troupes de tbourida, ahidous et souks de campagne.",
+    "en": "A nine-day rural moussem around the saint's shrine. Such gatherings traditionally bring together tbourida horse troupes, ahidous dancers and country souks."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Tbourida_Moroccan_folklore_fantasy.jpg",
+      "caption": {
+        "fr": "Tbourida"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Fantasia_au_Maroc.jpg",
+      "caption": {
+        "fr": "Fantasia au Maroc"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "SA3FcOHnXmU"
+    },
+    {
+      "id": "A1HWPH04Azc"
+    },
+    {
+      "id": "mZe7X6l8UL4"
+    }
+  ],
+  "sources": [
+    "https://www.alahdat.net/archives/220904"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

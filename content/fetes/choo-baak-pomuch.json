@@ -1,0 +1,41 @@
+{
+  "slug": "choo-baak-pomuch",
+  "continent": "ameriques",
+  "category": "morts",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 20.137,
+    "lng": -90.175
+  },
+  "place": "Pomuch, Hecelchakán, Campeche",
+  "country": {
+    "fr": "Mexique",
+    "en": "Mexico"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-10-31",
+      "end": "2026-11-02"
+    }
+  ],
+  "rule": "Hanal Pixán : 31 octobre - 2 novembre",
+  "name": {
+    "fr": "Choo Baak, le nettoyage des os",
+    "en": "Choo Baak, the cleaning of the bones"
+  },
+  "description": {
+    "fr": "Trois ans au moins après un décès, les familles mayas sortent les ossements de leurs défunts, les brossent un à un puis les recouchent dans une boîte tapissée d'un linge brodé neuf : un geste de tendresse.",
+    "en": "At least three years after a death, Maya families take out the bones of their dead, brush them one by one and lay them back in a box lined with a freshly embroidered cloth: an act of tenderness."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://www.poresto.com/campeche/2026/10/16/limpieza-huesos-pomuch-cuantos-anos-pasar-muerte-ritual.html"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

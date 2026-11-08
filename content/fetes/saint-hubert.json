@@ -1,0 +1,63 @@
+{
+  "slug": "saint-hubert",
+  "continent": "europe",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 50.027,
+    "lng": 5.374
+  },
+  "place": "Saint-Hubert, Ardenne",
+  "country": {
+    "fr": "Belgique",
+    "en": "Belgium"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-03",
+      "end": "2026-11-03"
+    }
+  ],
+  "rule": "Fixe : 3 novembre",
+  "name": {
+    "fr": "Fête de saint Hubert",
+    "en": "Feast of St Hubert"
+  },
+  "description": {
+    "fr": "Jour du patron des chasseurs dans sa basilique : messe aux trompes de chasse et bénédiction des animaux.",
+    "en": "Day of the patron saint of hunters in his basilica: mass with hunting horns and blessing of the animals."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "0_Basilique_St-Hubert_100410_(1c).JPG",
+      "caption": {
+        "fr": "Basilique de Saint-Hubert"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "kEorVIStXDQ"
+    },
+    {
+      "id": "3y8WlJL6G1k"
+    },
+    {
+      "id": "KSa9dw1QGUc"
+    },
+    {
+      "id": "NkGlOMnm1cs"
+    }
+  ],
+  "sources": [
+    "https://www.rtbf.be/article/saint-hubert-un-parchemin-pour-proteger-les-animaux-10633062"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

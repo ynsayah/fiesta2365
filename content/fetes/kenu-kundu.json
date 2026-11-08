@@ -1,0 +1,63 @@
+{
+  "slug": "kenu-kundu",
+  "continent": "oceanie",
+  "category": "ancestrale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": -10.315,
+    "lng": 150.459
+  },
+  "place": "Alotau, Milne Bay",
+  "country": {
+    "fr": "Papouasie-Nouvelle-Guinée",
+    "en": "Papua New Guinea"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-06",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Annuel : début novembre (date à confirmer)",
+  "name": {
+    "fr": "National Kenu & Kundu Festival",
+    "en": "National Kenu & Kundu Festival"
+  },
+  "description": {
+    "fr": "Courses de grandes pirogues de guerre sculptées et concours de tambours kundu venus des îles de la baie de Milne, Trobriand comprises.",
+    "en": "Races of great carved war canoes and kundu drum contests from the islands of Milne Bay, the Trobriands included."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "MilneBay-Alotau.JPG",
+      "caption": {
+        "fr": "Alotau et la baie de Milne"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "egD3TyDr9hI"
+    },
+    {
+      "id": "bAD9ikNJ_c4"
+    },
+    {
+      "id": "P-yUWJolaoY"
+    },
+    {
+      "id": "ASvGDJVz7OA"
+    }
+  ],
+  "sources": [
+    "https://pnghausbung.com/preparations-begin-for-2026-national-kenu-kundu-festival-in-alotau/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

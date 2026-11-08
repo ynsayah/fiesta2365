@@ -1,0 +1,60 @@
+{
+  "slug": "siao-ouagadougou",
+  "continent": "afrique",
+  "category": "foire",
+  "fame": "regional",
+  "geo": {
+    "lat": 12.3714,
+    "lng": -1.5197
+  },
+  "place": "Ouagadougou",
+  "country": {
+    "fr": "Burkina Faso",
+    "en": "Burkina Faso"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-10-30",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Biennale (années paires), fin octobre - début novembre",
+  "name": {
+    "fr": "SIAO, Salon international de l'artisanat",
+    "en": "SIAO, International Crafts Fair"
+  },
+  "description": {
+    "fr": "Biennale géante de l'artisanat africain : plus de 6 000 exposants de 30 pays, bronziers de Ouagadougou, tisserands du Faso Dan Fani, maroquiniers touaregs et masques.",
+    "en": "Africa's giant crafts biennial: over 6,000 exhibitors from 30 countries, Ouagadougou bronze-casters, Faso Dan Fani weavers, Tuareg leatherworkers and masks."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Ouagadougou_shop.JPG",
+      "caption": {
+        "fr": "Boutique à Ouagadougou"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "o045bYUEIus"
+    },
+    {
+      "id": "0tJwcR0N4A0"
+    },
+    {
+      "id": "tkExC_LutEs"
+    }
+  ],
+  "sources": [
+    "https://burkina24.com/?p=385768"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

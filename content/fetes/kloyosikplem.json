@@ -1,0 +1,68 @@
+{
+  "slug": "kloyosikplem",
+  "continent": "afrique",
+  "category": "ancestrale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 6.087,
+    "lng": -0.009
+  },
+  "place": "Somanya, région de l'Est",
+  "country": {
+    "fr": "Ghana",
+    "en": "Ghana"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "rule": "Annuel : novembre (date à confirmer)",
+  "name": {
+    "fr": "Kloyosikplem des Yilo Krobo",
+    "en": "Kloyosikplem of the Yilo Krobo"
+  },
+  "description": {
+    "fr": "Les Krobo commémorent la descente de leur montagne ancestrale, dont les Britanniques les chassèrent en 1892 : pèlerinage sur le mont Krobo et danses guerrières.",
+    "en": "The Krobo commemorate leaving their ancestral mountain, from which the British expelled them in 1892: a pilgrimage up Krobo Mountain and war dances."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Krobo_Hills_Ghana_01.jpg",
+      "caption": {
+        "fr": "Le mont Krobo"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Odumase_Krobo_Festival_4.jpg",
+      "caption": {
+        "fr": "Fête krobo à Odumase"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "DvvcFhmyHgk"
+    },
+    {
+      "id": "7ljnXEycLQY"
+    },
+    {
+      "id": "KffLtsUeCWA"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kloyosikplem_festival"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

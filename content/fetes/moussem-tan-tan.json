@@ -1,0 +1,41 @@
+{
+  "slug": "moussem-tan-tan",
+  "continent": "afrique",
+  "category": "ancestrale",
+  "fame": "celebre",
+  "geo": {
+    "lat": 28.438,
+    "lng": -11.103
+  },
+  "place": "Tan-Tan, Guelmim-Oued Noun",
+  "country": {
+    "fr": "Maroc",
+    "en": "Morocco"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-10-30",
+      "end": "2026-11-03"
+    }
+  ],
+  "rule": "Annuel (fin octobre - début novembre en 2026)",
+  "name": {
+    "fr": "Moussem de Tan-Tan",
+    "en": "Tan-Tan Moussem"
+  },
+  "description": {
+    "fr": "Grand rassemblement des tribus nomades sahraouies, inscrit au patrimoine immatériel de l'UNESCO : tentes caïdales, courses de dromadaires, tbourida, chants madih et nuits de poésie hassanie.",
+    "en": "Great gathering of Saharan nomadic tribes, on UNESCO's intangible heritage list: chieftains' tents, camel races, tbourida, madih chants and nights of Hassani poetry."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://fr.hespress.com/493546-moussem-de-tan-tan-2026-hatim-ammor-karima-ghait-et-fadel-mazroui-a-laffiche.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

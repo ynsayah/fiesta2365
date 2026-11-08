@@ -1,0 +1,63 @@
+{
+  "slug": "divali-trinidad",
+  "continent": "ameriques",
+  "category": "lumieres",
+  "fame": "regional",
+  "geo": {
+    "lat": 10.5167,
+    "lng": -61.4114
+  },
+  "place": "Chaguanas et villages indo-trinidadiens",
+  "country": {
+    "fr": "Trinité-et-Tobago",
+    "en": "Trinidad and Tobago"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire hindou : nouvelle lune de Kartik",
+  "name": {
+    "fr": "Divali et Divali Nagar",
+    "en": "Divali and Divali Nagar"
+  },
+  "description": {
+    "fr": "Les descendants des travailleurs indiens engagés allument des milliers de deyas sur des arches de bambou ; le Divali Nagar de Chaguanas réunit théâtre, chutney music et cuisine.",
+    "en": "Descendants of Indian indentured workers light thousands of deyas on bent bamboo arches; the Divali Nagar in Chaguanas brings together theatre, chutney music and food."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Trinidad_Tobago_Multicultural_Diwali_Divali_Deepavali_Deyas_2012.jpg",
+      "caption": {
+        "fr": "Deyas de Divali à Trinidad"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "T9fe8CIbVQk"
+    },
+    {
+      "id": "4xoc7LP8_Gw"
+    },
+    {
+      "id": "cO9RjcFbfgA"
+    },
+    {
+      "id": "2u-E7r-F__Q"
+    }
+  ],
+  "sources": [
+    "https://hindutone.com/festivals/diwali-2026-trinidad-tobago/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

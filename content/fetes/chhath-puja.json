@@ -1,0 +1,71 @@
+{
+  "slug": "chhath-puja",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "celebre",
+  "geo": {
+    "lat": 25.6093,
+    "lng": 85.1376
+  },
+  "place": "Janakpur (Népal) et ghats de Patna (Bihar)",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-13",
+      "end": "2026-11-16"
+    }
+  ],
+  "rule": "Lunaire hindou : 6e jour de Kartik shukla",
+  "name": {
+    "fr": "Chhath Puja",
+    "en": "Chhath Puja"
+  },
+  "description": {
+    "fr": "Quatre jours de jeûne pour Surya : les fidèles entrent dans les rivières pour offrir l'arghya au soleil couchant puis au soleil levant.",
+    "en": "Four days of fasting for Surya: devotees wade into rivers to make offerings to the setting and then the rising sun."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "JanakpurChhathParvaFestival.jpg",
+      "caption": {
+        "fr": "Chhath à Janakpur"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Ranipokhari_during_chhath.jpg",
+      "caption": {
+        "fr": "Rani Pokhari pendant Chhath"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "Novfnu6JedE"
+    },
+    {
+      "id": "LKFrMEpthQE"
+    },
+    {
+      "id": "_uagSdTf4zc"
+    },
+    {
+      "id": "MWZm4xhORHU"
+    }
+  ],
+  "sources": [
+    "https://www.smartpuja.com/blog/chhath-puja-2026-date-arghya-timings-vidhi/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

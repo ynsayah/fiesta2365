@@ -1,0 +1,63 @@
+{
+  "slug": "mha-puja",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 27.671,
+    "lng": 85.4298
+  },
+  "place": "Vallée de Katmandou",
+  "country": {
+    "fr": "Népal",
+    "en": "Nepal"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-10",
+      "end": "2026-11-10"
+    }
+  ],
+  "rule": "Nouvel An Nepal Sambat (lunaire newar)",
+  "name": {
+    "fr": "Mha Puja, le Nouvel An newar",
+    "en": "Mha Puja, Newar New Year"
+  },
+  "description": {
+    "fr": "Les Newars ouvrent l'an 1147 du Nepal Sambat par la « puja de soi » : chacun s'assoit devant un mandala de sable coloré, de graines et de lampes pour purifier son corps. Défilés Bhintuna le lendemain matin.",
+    "en": "The Newars open year 1147 of the Nepal Sambat with a ‘worship of the self’: each person sits before a mandala of coloured sand, seeds and lamps to purify the body. Bhintuna parades follow next morning."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Mhapuja_mandala.jpg",
+      "caption": {
+        "fr": "Mandala de Mha Puja"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "zttgkqoxtj0"
+    },
+    {
+      "id": "G_WXajcDB_M"
+    },
+    {
+      "id": "iKJ12Er1oVE"
+    },
+    {
+      "id": "Sv-xa8TJSM4"
+    }
+  ],
+  "sources": [
+    "https://blog.orbitremit.com/tihar-2026-nepals-festival-of-lights-animals-and-family/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

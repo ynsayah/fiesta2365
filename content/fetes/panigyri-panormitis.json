@@ -1,0 +1,63 @@
+{
+  "slug": "panigyri-panormitis",
+  "continent": "europe",
+  "category": "religieuse",
+  "fame": "regional",
+  "geo": {
+    "lat": 36.553,
+    "lng": 27.844
+  },
+  "place": "Monastère de Panormitis, île de Symi",
+  "country": {
+    "fr": "Grèce",
+    "en": "Greece"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-07",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Fixe : 8 novembre (calendrier orthodoxe)",
+  "name": {
+    "fr": "Panigyri des Archanges de Panormitis",
+    "en": "Feast of the Archangels at Panormitis"
+  },
+  "description": {
+    "fr": "Des milliers de pèlerins débarquent dans une baie isolée pour la fête de l'archange Michel, patron des marins de l'Égée : vigile toute la nuit puis liturgie.",
+    "en": "Thousands of pilgrims land in a remote bay for the feast of Archangel Michael, patron of Aegean sailors: an all-night vigil, then the liturgy."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Belfry_Panormitis_monastery.jpg",
+      "caption": {
+        "fr": "Clocher de Panormitis"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "dJVHy8-Dh7M"
+    },
+    {
+      "id": "-ixYgLbokjE"
+    },
+    {
+      "id": "OkCUgz-mdx0"
+    },
+    {
+      "id": "uYShjuneGjo"
+    }
+  ],
+  "sources": [
+    "https://www.iefimerida.gr/ellada/panormitis-proskynites-anamenontai-ston-taxiarhi"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

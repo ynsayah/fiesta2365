@@ -1,0 +1,63 @@
+{
+  "slug": "divali-maurice",
+  "continent": "afrique",
+  "category": "lumieres",
+  "fame": "regional",
+  "geo": {
+    "lat": -20.059,
+    "lng": 57.549
+  },
+  "place": "Triolet, Port-Louis et tous les villages",
+  "country": {
+    "fr": "Maurice",
+    "en": "Mauritius"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire hindou : nouvelle lune de Kartik (jour férié)",
+  "name": {
+    "fr": "Divali à l'île Maurice",
+    "en": "Divali in Mauritius"
+  },
+  "description": {
+    "fr": "L'île entière s'allume de lampes en terre et de guirlandes ; on partage gâteaux-patates et napolitaines entre voisins de toutes confessions. Triolet, plus grand temple hindou de l'île, est le cœur de la fête.",
+    "en": "The whole island glows with clay lamps and garlands; neighbours of every faith share sweet-potato cakes and napolitaines. Triolet, the island's largest Hindu temple, is the heart of it."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Mauritius_Divali_Diwali_Lighting_and_Decorations_2010.jpg",
+      "caption": {
+        "fr": "Illuminations de Divali à Maurice"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "P5jhvBRNsaM"
+    },
+    {
+      "id": "zgPUkzV4ulI"
+    },
+    {
+      "id": "AZx7IdCXIHQ"
+    },
+    {
+      "id": "8sd0qlL6XfA"
+    }
+  ],
+  "sources": [
+    "https://publicholidays.mu/?p=63"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

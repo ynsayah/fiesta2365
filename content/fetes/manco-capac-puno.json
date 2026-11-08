@@ -1,0 +1,71 @@
+{
+  "slug": "manco-capac-puno",
+  "continent": "ameriques",
+  "category": "ancestrale",
+  "fame": "regional",
+  "geo": {
+    "lat": -15.8402,
+    "lng": -70.0219
+  },
+  "place": "Îles Uros et Puno",
+  "country": {
+    "fr": "Pérou",
+    "en": "Peru"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-05",
+      "end": "2026-11-05"
+    }
+  ],
+  "rule": "Annuel : 5 novembre, semaine jubilaire de Puno",
+  "name": {
+    "fr": "Manco Cápac et Mama Ocllo sortent du Titicaca",
+    "en": "Manco Cápac and Mama Ocllo rise from Lake Titicaca"
+  },
+  "description": {
+    "fr": "Plus de 500 acteurs rejouent le mythe fondateur inca : le couple sort du lac sur des balsas de totora depuis les îles flottantes Uros, débarque à Puno et prédit l'année agricole.",
+    "en": "Over 500 performers re-enact the Inca founding myth: the couple emerges from the lake on totora-reed boats from the floating Uros islands, lands in Puno and forecasts the farming year."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Manco_Cápac_y_Mama_Ocllo_frente_al_lago.jpg",
+      "caption": {
+        "fr": "Manco Cápac et Mama Ocllo face au lac"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Vista_de_Puno_y_el_Titicaca,_Perú,_2015-08-01,_DD_53-54_PAN.JPG",
+      "caption": {
+        "fr": "Puno et le Titicaca"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "GsD3NgBdFVg"
+    },
+    {
+      "id": "sWu7jOZZXZo"
+    },
+    {
+      "id": "3l5rx2raUgk"
+    },
+    {
+      "id": "KFCu4tZroj8"
+    }
+  ],
+  "sources": [
+    "https://andina.pe/ingles/noticia-puno-to-stage-legend-of-manco-capac-and-mama-ocllo-on-lake-titicaca-with-over-500-actors-1097834.aspx"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "kali-puja",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "celebre",
+  "geo": {
+    "lat": 22.5726,
+    "lng": 88.3639
+  },
+  "place": "Kolkata (Inde) et Dhaka (Bangladesh)",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire hindou : nouvelle lune de Kartik",
+  "name": {
+    "fr": "Kali Puja",
+    "en": "Kali Puja"
+  },
+  "description": {
+    "fr": "La nuit de nouvelle lune, le Bengale vénère Kali plutôt que Lakshmi : pandals thématiques géants et rites à minuit dans les temples.",
+    "en": "On the new-moon night Bengal worships Kali rather than Lakshmi: giant themed pandals and midnight rites in the temples."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Kali_Puja_Pandal_at_Kolkata.JPG",
+      "caption": {
+        "fr": "Pandal à Kolkata"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "it8ECMWTux8"
+    },
+    {
+      "id": "t_TxYmZ_Qbo"
+    },
+    {
+      "id": "gYTTeLmupeQ"
+    },
+    {
+      "id": "R3AHCj2ii90"
+    }
+  ],
+  "sources": [
+    "https://hindutone.com/festivals/diwali-in-bangladesh-2026/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

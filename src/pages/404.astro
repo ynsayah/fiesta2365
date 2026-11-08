@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import { t } from '../i18n/ui.js';
+const T = t('fr');
+---
+<Base lang="fr" title="404" path="">
+  <section class="section wrap"><h1 style="font-size:var(--step-3)">{T.notfound}</h1><p style="margin-top:16px"><a class="btn action" href="/fr/">{T.back_home}</a></p></section>
+</Base>

@@ -1,0 +1,54 @@
+{
+  "slug": "hingot-yuddh",
+  "continent": "asie",
+  "category": "ancestrale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 22.99,
+    "lng": 75.52
+  },
+  "place": "Gautampura, près d'Indore, Madhya Pradesh",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-10",
+      "end": "2026-11-10"
+    }
+  ],
+  "rule": "Lunaire hindou : lendemain de Diwali",
+  "name": {
+    "fr": "Hingot Yuddh",
+    "en": "Hingot Yuddh"
+  },
+  "description": {
+    "fr": "Les « armées » de deux villages se bombardent de hingots, fruits évidés bourrés de poudre qui filent en sifflant : une bataille de feu héritée des guerres marathes.",
+    "en": "The ‘armies’ of two villages pelt each other with hingots, hollowed fruit packed with gunpowder that whistle through the air: a fire battle inherited from the Maratha wars."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [
+    {
+      "id": "fBwJb03fioo"
+    },
+    {
+      "id": "PxIHaj7bSeQ"
+    },
+    {
+      "id": "3nHBIB2J4pw"
+    },
+    {
+      "id": "7NjhKkJn4zg"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hingot_war"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

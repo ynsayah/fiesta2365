@@ -1,0 +1,41 @@
+{
+  "slug": "xantolo-huejutla",
+  "continent": "ameriques",
+  "category": "morts",
+  "fame": "regional",
+  "geo": {
+    "lat": 21.14,
+    "lng": -98.42
+  },
+  "place": "Huejutla de Reyes, Hidalgo",
+  "country": {
+    "fr": "Mexique",
+    "en": "Mexico"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-10-30",
+      "end": "2026-11-02"
+    }
+  ],
+  "rule": "Fixe : 30 octobre - 2 novembre",
+  "name": {
+    "fr": "Xantolo de la Huasteca",
+    "en": "Xantolo of the Huasteca"
+  },
+  "description": {
+    "fr": "La Toussaint huastèque : comparsas masquées qui dansent de maison en maison et un autel monumental de plus de 1 100 m² ; le 2 novembre, 2 026 bougies pour l'Ánima Sola.",
+    "en": "Huastec All Saints: masked comparsas dancing from house to house and a monumental altar of more than 1,100 m²; on 2 November, 2,026 candles for the Ánima Sola."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://www.adn40.mx/mexico/2026-10-14/xantolo-2026-el-lugar-ideal-para-el-dia-de-muertos-de-la-huasteca-de-hidalgo-con-un-altar-monumental-de-mas-de-1100-m-fechas-y-como-llegar-desde-cdmx/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "annakut-dakor",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 22.753,
+    "lng": 73.15
+  },
+  "place": "Temple Ranchhodraiji, Dakor, Gujarat",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-10",
+      "end": "2026-11-10"
+    }
+  ],
+  "rule": "Lunaire hindou : Annakut, lendemain de Diwali",
+  "name": {
+    "fr": "Annakut de Dakor, le « pillage sacré »",
+    "en": "Dakor Annakut, the ‘sacred looting’"
+  },
+  "description": {
+    "fr": "Une montagne de 3 000 kg de prasad offerte à Krishna est, selon une tradition de 250 ans, « pillée » par les villageois qui se ruent dans le temple pour emporter la nourriture bénie.",
+    "en": "A 3,000 kg mountain of prasad offered to Krishna is, by a 250-year-old tradition, ‘looted’ by villagers who rush into the temple to carry off the blessed food."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Dakor_Ranchhod_Ji_Mandir_and_Tirtha,_Gujarat_067.jpg",
+      "caption": {
+        "fr": "Temple Ranchhodji"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vMVYCP1iI-Q"
+    },
+    {
+      "id": "CWAzU3csOew"
+    },
+    {
+      "id": "V-tSdOvtZ4E"
+    }
+  ],
+  "sources": [
+    "https://www.etvbharat.com/en/state/divine-feast-and-sacred-theft-the-annakoot-tradition-of-dakor-enn25102103617"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "romeria-teocaltiche",
+  "continent": "ameriques",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 21.433,
+    "lng": -102.572
+  },
+  "place": "Teocaltiche, Altos de Jalisco",
+  "country": {
+    "fr": "Mexique",
+    "en": "Mexico"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Annuel : 11 novembre",
+  "name": {
+    "fr": "Romería de Nuestra Señora de los Dolores",
+    "en": "Pilgrimage of Our Lady of Sorrows"
+  },
+  "description": {
+    "fr": "Pèlerinage vers la Vierge des Douleurs d'une petite ville des Altos de Jalisco, avec processions, danses, musique et pyrotechnie.",
+    "en": "Pilgrimage to the Virgin of Sorrows in a small town of the Altos de Jalisco, with processions, dances, music and fireworks."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [
+    {
+      "id": "Dh7sc1NZP_I"
+    },
+    {
+      "id": "Yz2eWhOTbDU"
+    }
+  ],
+  "sources": [
+    "https://www.aztecajalisco.com/arte-y-cultura/de-ameca-a-teocaltiche-estas-son-las-fiestas-patronales-mas-populares-en-jalisco-durante-noviembre-de-2026/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

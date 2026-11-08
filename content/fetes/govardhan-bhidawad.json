@@ -1,0 +1,63 @@
+{
+  "slug": "govardhan-bhidawad",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 23.18,
+    "lng": 75.78
+  },
+  "place": "Bhidawad, district d'Ujjain, Madhya Pradesh",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-09",
+      "end": "2026-11-10"
+    }
+  ],
+  "rule": "Lunaire hindou : lendemain de Diwali",
+  "name": {
+    "fr": "Govardhan Puja : les vaches qui piétinent",
+    "en": "Govardhan Puja: trampled by cows"
+  },
+  "description": {
+    "fr": "Après plusieurs jours de jeûne, des villageois s'allongent face contre terre et laissent un troupeau de vaches décorées leur passer dessus, pour voir leurs vœux exaucés.",
+    "en": "After days of fasting, villagers lie face down and let a herd of decorated cows walk over them so that their wishes come true."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Govardhan_pooja.jpg",
+      "caption": {
+        "fr": "Govardhan Puja"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "gAECq2YY1vk"
+    },
+    {
+      "id": "35y3JwFgjUo"
+    },
+    {
+      "id": "V_w0eYhi4Cs"
+    },
+    {
+      "id": "N67uPjP6c08"
+    }
+  ],
+  "sources": [
+    "https://www.freepressjournal.in/bhopal/mp-news-cows-run-over-villagers-in-unique-century-old-govardhan-puja-tradition-in-ujjain"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

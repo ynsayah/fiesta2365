@@ -1,0 +1,71 @@
+{
+  "slug": "sohrai-santal",
+  "continent": "asie",
+  "category": "recolte",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 22.55,
+    "lng": 85.8
+  },
+  "place": "Villages santal du Singhbhum, Jharkhand",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-09",
+      "end": "2026-11-13"
+    }
+  ],
+  "rule": "Lunaire : cinq jours après Diwali (date à confirmer)",
+  "name": {
+    "fr": "Sohrai des Santal",
+    "en": "Sohrai of the Santal"
+  },
+  "description": {
+    "fr": "Fête du bétail de cinq jours après Diwali : murs de terre peints (art sohrai), vaches ointes et vénérées, cornes ornées de paddy, chants et danses.",
+    "en": "Five-day cattle festival after Diwali: painted mud walls (sohrai art), cows anointed and honoured, horns adorned with paddy, songs and dances."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Sohrai_painting,_Jharkhand.jpg",
+      "caption": {
+        "fr": "Peinture sohrai"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Sohrai_Painting.jpg",
+      "caption": {
+        "fr": "Mur peint sohrai"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "tywXu_IzWR8"
+    },
+    {
+      "id": "m0YGvpyAWY0"
+    },
+    {
+      "id": "xBCADAv2CwM"
+    },
+    {
+      "id": "XYhV9NB17O0"
+    }
+  ],
+  "sources": [
+    "https://www.gaonconnection.com/english/jharkhand-sohrai-festival-diwali-cattle-worship-tribal-festival-culture-52969/articleshow/124936146.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

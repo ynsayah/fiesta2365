@@ -1,0 +1,63 @@
+{
+  "slug": "leonhardifahrt-bad-tolz",
+  "continent": "europe",
+  "category": "religieuse",
+  "fame": "regional",
+  "geo": {
+    "lat": 47.76,
+    "lng": 11.557
+  },
+  "place": "Bad Tölz, Haute-Bavière",
+  "country": {
+    "fr": "Allemagne",
+    "en": "Germany"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-06",
+      "end": "2026-11-06"
+    }
+  ],
+  "rule": "Fixe : 6 novembre, Saint-Léonard",
+  "name": {
+    "fr": "Tölzer Leonhardifahrt",
+    "en": "Tölz Leonhardi Ride"
+  },
+  "description": {
+    "fr": "Pour saint Léonard, patron du bétail, des chariots peints tirés par des chevaux de trait montent au Kalvarienberg, avec claquements de fouet. Tradition depuis 1772.",
+    "en": "For St Leonard, patron of livestock, painted wagons pulled by draught horses climb the Kalvarienberg amid whip-cracking. A tradition since 1772."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Leonhardiritt_Iffeldorf_2012_80g.JPG",
+      "caption": {
+        "fr": "Leonhardiritt d'Iffeldorf"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "ijG95A2veIw"
+    },
+    {
+      "id": "81eUqznM78k"
+    },
+    {
+      "id": "kdDhOZVD3BI"
+    },
+    {
+      "id": "iwgxwPC7S5Q"
+    }
+  ],
+  "sources": [
+    "https://www.festivalsindeutschland.de/festival/toelzer-leonhardifahrt"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

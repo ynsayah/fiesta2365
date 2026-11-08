@@ -1,0 +1,41 @@
+{
+  "slug": "lhabab-duchen",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "regional",
+  "geo": {
+    "lat": 27.4728,
+    "lng": 89.639
+  },
+  "place": "Bhoutan, Sikkim et monde tibétain",
+  "country": {
+    "fr": "Bhoutan",
+    "en": "Bhutan"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-01"
+    }
+  ],
+  "rule": "Lunaire tibétain : 22e jour du 9e mois",
+  "name": {
+    "fr": "Lhabab Düchen",
+    "en": "Lhabab Düchen"
+  },
+  "description": {
+    "fr": "Fête de la descente du Bouddha du ciel des Trente-Trois : lampes à beurre allumées par milliers ; au Bhoutan, c'est un jour férié.",
+    "en": "Festival of the Buddha's descent from the Heaven of the Thirty-Three: butter lamps lit by the thousand; a public holiday in Bhutan."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://chaplain.yale.edu/events/2026-11-01-buddhas-descent-buddhism"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "diwali-durban",
+  "continent": "afrique",
+  "category": "lumieres",
+  "fame": "regional",
+  "geo": {
+    "lat": -29.8587,
+    "lng": 31.0218
+  },
+  "place": "Durban, KwaZulu-Natal",
+  "country": {
+    "fr": "Afrique du Sud",
+    "en": "South Africa"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire hindou : nouvelle lune de Kartik",
+  "name": {
+    "fr": "Diwali à Durban",
+    "en": "Diwali in Durban"
+  },
+  "description": {
+    "fr": "La plus grande communauté indienne d'Afrique, issue des travailleurs engagés du XIXe siècle, illumine Chatsworth et Phoenix : lampes à huile, feux d'artifice et Annakut dans les temples.",
+    "en": "Africa's largest Indian community, descended from 19th-century indentured labourers, lights up Chatsworth and Phoenix: oil lamps, fireworks and Annakut offerings in the temples."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Diwali_candle_lights.jpg",
+      "caption": {
+        "fr": "Lampes de Diwali"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "uBvofmVD-0Y"
+    },
+    {
+      "id": "Z3UoFX_PUHw"
+    },
+    {
+      "id": "nEckEjTCX98"
+    },
+    {
+      "id": "Gsgn0eILcBI"
+    }
+  ],
+  "sources": [
+    "https://hindutone.com/festivals/diwali-2026-south-africa/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

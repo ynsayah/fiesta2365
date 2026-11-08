@@ -1,0 +1,63 @@
+{
+  "slug": "bix-hanal-pixan",
+  "continent": "ameriques",
+  "category": "morts",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 20.433,
+    "lng": -89.3
+  },
+  "place": "Chumayel et villages mayas, Yucatán",
+  "country": {
+    "fr": "Mexique",
+    "en": "Mexico"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-07",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Huit jours après le 31 octobre",
+  "name": {
+    "fr": "Bix, l'octave du Hanal Pixán",
+    "en": "Bix, the octave of Hanal Pixán"
+  },
+  "description": {
+    "fr": "Huit jours après la fête des morts, on allume des bougies sur les portes et les murets de pierre sèche pour reconduire les âmes, avec un dernier pib.",
+    "en": "Eight days after the festival of the dead, candles are lit on doorsteps and dry-stone walls to see the souls off, with one last pib."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Hanal_Pixan_Valladolid_Yucatan_2012_04.jpg",
+      "caption": {
+        "fr": "Hanal Pixán à Valladolid"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "pYug_xJ8-KA"
+    },
+    {
+      "id": "HKoHta0hfwI"
+    },
+    {
+      "id": "9iaHjh80q-c"
+    },
+    {
+      "id": "TlxH5x7-J54"
+    }
+  ],
+  "sources": [
+    "https://www.poresto.com/yucatan/2025/11/10/iluminan-velas-el-camino-y-despedida-de-las-animas-con-el-bix-de-hanal-pixan-en-chumayel.amp.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

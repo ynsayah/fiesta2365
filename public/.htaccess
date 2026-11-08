@@ -1,0 +1,42 @@
+# Fiesta365 v3 — Apache (o2switch)
+Options -Indexes
+ErrorDocument 404 /404.html
+AddDefaultCharset utf-8
+AddType image/svg+xml .svg
+
+RewriteEngine On
+# HTTPS et domaine sans www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://fiesta365.org%{REQUEST_URI} [R=301,L]
+
+# --- Anciennes URL de la v2 (Astro, /v2/<langue>/...) ---
+RewriteRule ^v2/?$ /fr/ [R=301,L]
+RewriteRule ^v2/(fr|en|es|zh|hi|ar|ru|pt|bn|de)/festivals/([^/]+)/?$ /$1/search/?q=$2 [R=301,L,NE]
+RewriteRule ^v2/(fr|en|es|zh|hi|ar|ru|pt|bn|de)/calendar/?$ /$1/calendar/ [R=301,L]
+RewriteRule ^v2/(fr|en|es|zh|hi|ar|ru|pt|bn|de)(/.*)?$ /$1/ [R=301,L]
+RewriteRule ^v2/(.*)$ /fr/ [R=301,L]
+
+# --- Anciennes URL WordPress ---
+# Redirections fiche par fiche (à compléter dans redirects-wordpress.conf, voir DEPLOIEMENT.md) :
+# RewriteRule ^2024/05/12/fete-du-citron-menton/?$ /fr/festivals/fete-du-citron/ [R=301,L]
+RewriteRule ^[0-9]{4}/[0-9]{2}/[0-9]{2}/([^/]+)/?$ /fr/search/?q=$1 [R=301,L,NE]
+RewriteRule ^category/ /fr/ [R=301,L]
+RewriteRule ^(calendrier|calendar)/?$ /fr/calendar/ [R=301,L]
+RewriteRule ^(toutes-les-fetes|fetes)/?$ /fr/search/ [R=301,L]
+RewriteRule ^feed/?$ /fr/ [R=301,L]
+RewriteRule ^(wp-admin|wp-login\.php|wp-content|wp-includes|xmlrpc\.php) - [G,L]
+
+# Cache
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 10 minutes"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 7 days"
+</IfModule>
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>

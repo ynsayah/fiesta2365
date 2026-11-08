@@ -1,0 +1,71 @@
+{
+  "slug": "mama-negra-latacunga",
+  "continent": "ameriques",
+  "category": "patronale",
+  "fame": "regional",
+  "geo": {
+    "lat": -0.9352,
+    "lng": -78.6155
+  },
+  "place": "Latacunga, Cotopaxi",
+  "country": {
+    "fr": "Équateur",
+    "en": "Ecuador"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-15"
+    }
+  ],
+  "rule": "Annuel : week-end autour du 11 novembre (date à confirmer)",
+  "name": {
+    "fr": "Mama Negra de novembre",
+    "en": "Mama Negra of November"
+  },
+  "description": {
+    "fr": "Défilé métis où un homme grimé en Mama Negra asperge la foule de lait et d'eau, entouré de huacos, d'ashangueros portant un cochon rôti, du roi maure et des champuceros.",
+    "en": "A mestizo parade in which a man made up as the Mama Negra sprays the crowd with milk and water, surrounded by huacos, ashangueros carrying a roast pig, the Moorish king and champuceros."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "FIESTA_DE_LA_MAMA_NEGRA_(26394583569).jpg",
+      "caption": {
+        "fr": "Défilé de la Mama Negra"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "El_Rey_Moro,_Latacunga,_Ecuador.jpg",
+      "caption": {
+        "fr": "Le Roi maure"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "GwmasdzxwQE"
+    },
+    {
+      "id": "MJJW2gmwAVo"
+    },
+    {
+      "id": "K0BgXdGkBhE"
+    },
+    {
+      "id": "h60I1TOBbRY"
+    }
+  ],
+  "sources": [
+    "https://www.expreso.ec/provincias/latacunga-lista-festejar-mama-negra-219496.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

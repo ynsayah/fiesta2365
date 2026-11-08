@@ -1,0 +1,41 @@
+{
+  "slug": "fet-gede",
+  "continent": "ameriques",
+  "category": "morts",
+  "fame": "regional",
+  "geo": {
+    "lat": 18.5392,
+    "lng": -72.3364
+  },
+  "place": "Grand Cimetière de Port-au-Prince et tout Haïti",
+  "country": {
+    "fr": "Haïti",
+    "en": "Haiti"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-02"
+    }
+  ],
+  "rule": "Fixe : 1er et 2 novembre",
+  "name": {
+    "fr": "Fèt Gede",
+    "en": "Fèt Gede"
+  },
+  "description": {
+    "fr": "Fête vodou des esprits des morts : les fidèles en violet et noir saluent Baron Samedi et Maman Brigitte au pied de la croix du cimetière, avec rhum pimenté, danses et humour cru.",
+    "en": "Vodou festival of the spirits of the dead: devotees in purple and black salute Baron Samedi and Maman Brigitte at the cemetery cross, with chilli rum, dancing and bawdy humour."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://visithaiti.com/art-culture/photo-journal-fet-gede-day-of-the-dead/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "lewes-bonfire",
+  "continent": "europe",
+  "category": "ancestrale",
+  "fame": "celebre",
+  "geo": {
+    "lat": 50.873,
+    "lng": 0.009
+  },
+  "place": "Lewes, Sussex de l'Est",
+  "country": {
+    "fr": "Royaume-Uni",
+    "en": "United Kingdom"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-05",
+      "end": "2026-11-05"
+    }
+  ],
+  "rule": "Fixe : 5 novembre",
+  "name": {
+    "fr": "Lewes Bonfire",
+    "en": "Lewes Bonfire"
+  },
+  "description": {
+    "fr": "Sept sociétés de feu défilent aux flambeaux en costumes, traînent des croix enflammées pour les martyrs protestants et brûlent des effigies satiriques géantes.",
+    "en": "Seven bonfire societies parade by torchlight in costume, drag burning crosses for the Protestant martyrs and burn giant satirical effigies."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Lewes_Bonfire,_Martyrs_Crosses.jpg",
+      "caption": {
+        "fr": "Croix des martyrs"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Lewes_Bonfire,_Devil_and_Grim_Reaper.jpg",
+      "caption": {
+        "fr": "Diable et Faucheuse"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "KQP2Xz5vn8o"
+    },
+    {
+      "id": "MB-e7XwiWYI"
+    },
+    {
+      "id": "GF1PBiXS3CE"
+    },
+    {
+      "id": "IV0i-gZyK-g"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lewes_Bonfire"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

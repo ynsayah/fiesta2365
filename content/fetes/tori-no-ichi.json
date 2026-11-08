@@ -1,0 +1,71 @@
+{
+  "slug": "tori-no-ichi",
+  "continent": "asie",
+  "category": "foire",
+  "fame": "regional",
+  "geo": {
+    "lat": 35.72,
+    "lng": 139.791
+  },
+  "place": "Sanctuaire Ōtori, Asakusa, Tokyo",
+  "country": {
+    "fr": "Japon",
+    "en": "Japan"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-07",
+      "end": "2026-11-19"
+    }
+  ],
+  "rule": "Jours du Coq de novembre (cycle de 12 jours)",
+  "name": {
+    "fr": "Tori-no-Ichi, le marché du Coq",
+    "en": "Tori-no-Ichi, the Rooster fair"
+  },
+  "description": {
+    "fr": "Foire nocturne des jours du Coq : on marchande des râteaux porte-bonheur kumade chargés de masques et de dorures, et chaque vente se conclut par des claquements de mains rythmés.",
+    "en": "Night fair on the Days of the Rooster: people haggle for lucky kumade rakes laden with masks and gilt, and every sale is sealed with rhythmic hand-clapping."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Tori-no-Ichi_2011,_Asakusa,_Tokyo,_Japan.JPG",
+      "caption": {
+        "fr": "Tori-no-Ichi à Asakusa"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Tori_no_Ichi_Fair_(4098136466).jpg",
+      "caption": {
+        "fr": "Stand de kumade"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "bh-iiJyiDME"
+    },
+    {
+      "id": "TS0JTkoAVPI"
+    },
+    {
+      "id": "E-4m5q1ga6Q"
+    },
+    {
+      "id": "XW_vc6o8lss"
+    }
+  ],
+  "sources": [
+    "https://bestcalendar.jp/koyomi/tori-no-ichi"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

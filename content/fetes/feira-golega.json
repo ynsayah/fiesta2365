@@ -1,0 +1,79 @@
+{
+  "slug": "feira-golega",
+  "continent": "europe",
+  "category": "foire",
+  "fame": "celebre",
+  "geo": {
+    "lat": 39.404,
+    "lng": -8.487
+  },
+  "place": "Golegã, Ribatejo",
+  "country": {
+    "fr": "Portugal",
+    "en": "Portugal"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-06",
+      "end": "2026-11-15"
+    }
+  ],
+  "rule": "Annuel : autour de la Saint-Martin (11 novembre)",
+  "name": {
+    "fr": "Feira Nacional do Cavalo et São Martinho",
+    "en": "National Horse Fair and São Martinho"
+  },
+  "description": {
+    "fr": "50e foire du cheval lusitanien, patrimoine immatériel portugais : campinos en gilet rouge, cavaliers en tenue, châtaignes grillées et jeropiga sur le Largo do Arneiro.",
+    "en": "50th fair of the Lusitano horse, Portuguese intangible heritage: campinos in red waistcoats, riders in traditional dress, roast chestnuts and jeropiga on the Largo do Arneiro."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Feira_Nacional_do_Cavalo_75g.JPG",
+      "caption": {
+        "fr": "Cavaliers à la Feira"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Feira_Nacional_do_Cavalo_91.JPG",
+      "caption": {
+        "fr": "Lusitanien à Golegã"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Feira_Nacional_do_Cavalo_51a.JPG",
+      "caption": {
+        "fr": "Le Largo do Arneiro"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "7fehEQN_eHs"
+    },
+    {
+      "id": "6t-tavsd38o"
+    },
+    {
+      "id": "Mcl9HjH54u8"
+    },
+    {
+      "id": "INbaOLRznZc"
+    }
+  ],
+  "sources": [
+    "https://www.viralagenda.com/pt/events/1807627/feira-da-golega-2026-feira-nacional-do-cavalo"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

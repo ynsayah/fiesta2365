@@ -1,0 +1,79 @@
+{
+  "slug": "kukur-tihar",
+  "continent": "asie",
+  "category": "lumieres",
+  "fame": "celebre",
+  "geo": {
+    "lat": 27.7172,
+    "lng": 85.324
+  },
+  "place": "Katmandou et tout le Népal",
+  "country": {
+    "fr": "Népal",
+    "en": "Nepal"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-07",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Lunaire hindou (Kartik) : 5 jours autour de la nouvelle lune de Diwali",
+  "name": {
+    "fr": "Tihar et Kukur Tihar, la fête des chiens",
+    "en": "Tihar and Kukur Tihar, the dog festival"
+  },
+  "description": {
+    "fr": "Cinq jours de lumières qui honorent tour à tour corbeaux, chiens, vaches puis frères et sœurs. Le jour du Kukur Tihar, chaque chien du pays, errant compris, reçoit une tika rouge, une guirlande de soucis et un festin.",
+    "en": "Five days of lights honouring crows, dogs, cows and finally siblings. On Kukur Tihar every dog in the country, strays included, gets a red tika, a marigold garland and a feast."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Kukur_Tihar(_Where_we_worship_Dogs).jpg",
+      "caption": {
+        "fr": "Chien honoré pour Kukur Tihar"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Kukur_tihar.jpg",
+      "caption": {
+        "fr": "Guirlande et tika"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Kukur_Tihar_2.jpg",
+      "caption": {
+        "fr": "Chien paré de fleurs"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "TrurqyIUb7A"
+    },
+    {
+      "id": "TvNT0dr4hO4"
+    },
+    {
+      "id": "-ZPafPAVKPc"
+    },
+    {
+      "id": "AL0FKmb85CA"
+    }
+  ],
+  "sources": [
+    "https://blog.orbitremit.com/tihar-2026-nepals-festival-of-lights-animals-and-family/"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

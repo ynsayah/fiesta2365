@@ -1,0 +1,57 @@
+{
+  "slug": "san-martin-atlahuilco",
+  "continent": "ameriques",
+  "category": "patronale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 18.699,
+    "lng": -97.106
+  },
+  "place": "Atlahuilco, Sierra de Zongolica, Veracruz",
+  "country": {
+    "fr": "Mexique",
+    "en": "Mexico"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-09",
+      "end": "2026-11-13"
+    }
+  ],
+  "rule": "Fixe : autour du 11 novembre",
+  "name": {
+    "fr": "Feria de San Martín Obispo y Caballero",
+    "en": "Feast of St Martin, Bishop and Knight"
+  },
+  "description": {
+    "fr": "Fête d'une commune nahua de montagne tenue par les mayordomías : mañanitas à l'aube, processions de saint Martin évêque puis cavalier, danses et « quema de castillos ».",
+    "en": "Festival of a Nahua mountain town run by the mayordomías: dawn mañanitas, processions of St Martin as bishop then knight, dances and the burning of firework ‘castles’."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Muestra_de_Cocina_tradicional_nahua_de_la_Sierra_de_Zongolica,_Veracruz_10.jpg",
+      "caption": {
+        "fr": "Cuisine nahua de la Sierra de Zongolica"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "4TwNIQVzyDU"
+    },
+    {
+      "id": "a-YtnANcu6Y"
+    }
+  ],
+  "sources": [
+    "https://www.feriasenmexico.com.mx/feria-atlahuilco-veracruz/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

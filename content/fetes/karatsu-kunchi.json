@@ -1,0 +1,79 @@
+{
+  "slug": "karatsu-kunchi",
+  "continent": "asie",
+  "category": "patronale",
+  "fame": "regional",
+  "geo": {
+    "lat": 33.45,
+    "lng": 129.968
+  },
+  "place": "Karatsu, préfecture de Saga",
+  "country": {
+    "fr": "Japon",
+    "en": "Japan"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-02",
+      "end": "2026-11-04"
+    }
+  ],
+  "rule": "Fixe : 2-4 novembre",
+  "name": {
+    "fr": "Karatsu Kunchi",
+    "en": "Karatsu Kunchi"
+  },
+  "description": {
+    "fr": "Quatorze chars hikiyama géants en laque et feuille d'or, un lion, un casque de samouraï, une daurade, sont tirés au pas de course puis traînés sur le sable de la plage. Patrimoine de l'UNESCO.",
+    "en": "Fourteen giant hikiyama floats in lacquer and gold leaf, a lion, a samurai helmet, a sea bream, are hauled at a run and dragged across the beach sand. UNESCO heritage."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Hikiyama.jpg",
+      "caption": {
+        "fr": "Les chars hikiyama"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Taiyama.jpg",
+      "caption": {
+        "fr": "La daurade géante"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Kinjishi.jpg",
+      "caption": {
+        "fr": "Le lion d'or"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "obL_ZdkmTkc"
+    },
+    {
+      "id": "ZtFRHrysDm0"
+    },
+    {
+      "id": "IGqVhXTpZrE"
+    },
+    {
+      "id": "Us6dyQdv0rg"
+    }
+  ],
+  "sources": [
+    "https://en.japantravel.com/saga/karatsu-kunchi-festival/32010"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

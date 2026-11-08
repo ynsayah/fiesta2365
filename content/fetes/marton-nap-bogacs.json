@@ -1,0 +1,51 @@
+{
+  "slug": "marton-nap-bogacs",
+  "continent": "europe",
+  "category": "recolte",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 47.903,
+    "lng": 20.529
+  },
+  "place": "Bogács, Borsod-Abaúj-Zemplén",
+  "country": {
+    "fr": "Hongrie",
+    "en": "Hungary"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-06",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Annuel : autour de la Saint-Martin",
+  "name": {
+    "fr": "Márton-napi Vigasságok",
+    "en": "St Martin's Day revels"
+  },
+  "description": {
+    "fr": "Saint-Martin villageoise dans la rue des caves creusées dans le tuf : festin d'oie, vin nouveau, messe, marché et concerts.",
+    "en": "Village St Martin's Day along a street of cellars cut into the tuff: goose feast, new wine, mass, market and concerts."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [
+    {
+      "id": "HUyB5rIylcs"
+    },
+    {
+      "id": "SfLzFU2krk4"
+    },
+    {
+      "id": "-uXOIsex4y4"
+    }
+  ],
+  "sources": [
+    "https://www.programturizmus.hu/ajanlat-marton-nap-vigassagok-bogacs.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

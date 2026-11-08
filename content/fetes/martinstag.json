@@ -1,0 +1,68 @@
+{
+  "slug": "martinstag",
+  "continent": "europe",
+  "category": "religieuse",
+  "fame": "regional",
+  "geo": {
+    "lat": 50.9375,
+    "lng": 6.9603
+  },
+  "place": "Rhénanie, Eifel, Pays-Bas et Flandre",
+  "country": {
+    "fr": "Allemagne",
+    "en": "Germany"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Fixe : 11 novembre et soirs voisins",
+  "name": {
+    "fr": "Saint-Martin, cortèges de lanternes",
+    "en": "St Martin's lantern processions"
+  },
+  "description": {
+    "fr": "À la nuit, les enfants suivent un saint Martin à cheval en chantant, lanternes à la main ; feu de la Saint-Martin et brioches Weckmänner sur la place du village.",
+    "en": "At nightfall children follow St Martin on horseback, singing, lanterns in hand; a Martin's bonfire and Weckmann buns on the village square."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Martinszug_Schleckheim.jpg",
+      "caption": {
+        "fr": "Martinszug à Schleckheim"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Frankfurt_am_Main_Sankt-Martins-Umzug_2.jpg",
+      "caption": {
+        "fr": "Défilé à Francfort"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "Ez95IraOmlU"
+    },
+    {
+      "id": "GPUgfqFf11o"
+    },
+    {
+      "id": "yCV3FNdFx-I"
+    }
+  ],
+  "sources": [
+    "https://www.wochenblatt-reporter.de/c-lokales/st-martin-2026-braeuche-und-traditionen-rund-um-das-fest_a582840"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

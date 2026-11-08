@@ -1,0 +1,60 @@
+{
+  "slug": "matanza-torresandino",
+  "continent": "europe",
+  "category": "patronale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 41.829,
+    "lng": -3.879
+  },
+  "place": "Torresandino, Burgos, Castille-et-León",
+  "country": {
+    "fr": "Espagne",
+    "en": "Spain"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-15"
+    }
+  ],
+  "rule": "Annuel : Saint-Martin (date à confirmer)",
+  "name": {
+    "fr": "San Martín y Matanza de Torresandino",
+    "en": "St Martin and Matanza of Torresandino"
+  },
+  "description": {
+    "fr": "Pour son saint patron, le village fait la matanza sur la Plaza Mayor : chorizos, morcillas et mondongo préparés en public, dégustation gratuite au son des dulzaineros.",
+    "en": "For its patron saint the village holds the matanza on the Plaza Mayor: chorizos, morcillas and mondongo made in public and shared free to the sound of dulzaina pipers."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Vista_de_Torresandino.jpg",
+      "caption": {
+        "fr": "Torresandino"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "mt3otk7IpVM"
+    },
+    {
+      "id": "JWL-CYJosCk"
+    },
+    {
+      "id": "LZgnrm1U8ok"
+    }
+  ],
+  "sources": [
+    "https://www.festivalesdeespana.com/festival/san-martin-matanza-torresandino"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,9 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, t } from '../../../i18n/ui.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params; const T = t(lang);
+---
+<Base lang={lang} title={T.about_title} description={T.about_body[0]} path="about/">
+  <section class="section wrap prose"><h1 style="font-size:var(--step-3)">{T.about_title}</h1>{T.about_body.map((p) => <p>{p}</p>)}<p><a class="btn action" href={`/${lang}/contact/`}>{T.contact_title}</a></p></section>
+</Base>

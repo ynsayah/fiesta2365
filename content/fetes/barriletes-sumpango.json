@@ -1,0 +1,41 @@
+{
+  "slug": "barriletes-sumpango",
+  "continent": "ameriques",
+  "category": "morts",
+  "fame": "celebre",
+  "geo": {
+    "lat": 14.646,
+    "lng": -90.733
+  },
+  "place": "Sumpango et Santiago Sacatepéquez",
+  "country": {
+    "fr": "Guatemala",
+    "en": "Guatemala"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-01"
+    }
+  ],
+  "rule": "Fixe : 1er novembre",
+  "name": {
+    "fr": "Barriletes gigantes",
+    "en": "Giant kites"
+  },
+  "description": {
+    "fr": "Des cerfs-volants de papier de soie de 15 à 20 mètres de diamètre sont dressés dans les cimetières pour communiquer avec les morts ; les plus petits sont lâchés dans le ciel.",
+    "en": "Tissue-paper kites 15 to 20 metres across are raised in cemeteries to communicate with the dead; the smaller ones are flown into the sky."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://livinginguatemala.com/events/giant-kite-festival-sumpango/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

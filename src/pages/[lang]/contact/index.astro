@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, t } from '../../../i18n/ui.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params; const T = t(lang);
+---
+<Base lang={lang} title={T.contact_title} description={T.contact_intro} path="contact/">
+  <section class="section wrap">
+    <div class="section-head"><h1 style="font-size:var(--step-3)">{T.contact_title}</h1><p>{T.contact_intro}</p><p><strong>contact@fiesta365.org</strong></p></div>
+    <form class="stack" id="contact" novalidate data-sent={T.contact_sent} data-off={T.contact_offline} data-err={T.forum_error}>
+      <label>{T.forum_name}<input name="name" required maxlength="60" autocomplete="name" /></label>
+      <label>{T.forum_email}<input name="email" type="email" required maxlength="120" autocomplete="email" /></label>
+      <label>{T.forum_subject}<input name="subject" required maxlength="120" /></label>
+      <label>{T.forum_message}<textarea name="body" required maxlength="6000"></textarea></label>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <input type="hidden" name="lang" value={lang} />
+      <button class="btn action" type="submit">{T.contact_send}</button>
+      <p class="out" role="status"></p>
+    </form>
+  </section>
+  <script is:inline>
+  (function(){ var f=document.getElementById('contact'), out=f.querySelector('.out');
+    var live=/fiesta365\.org$|localhost|127\.0\.0\.1/.test(location.hostname);
+    if(!live){ out.className='out msg'; out.textContent=f.dataset.off; }
+    f.addEventListener('submit',function(e){ e.preventDefault(); if(!live) return; if(!f.checkValidity()){ f.reportValidity(); return; }
+      fetch('/api/contact.php',{method:'POST',body:new FormData(f)}).then(function(r){ if(!r.ok) throw 0; out.className='out msg'; out.textContent=f.dataset.sent; f.reset(); })
+      .catch(function(){ out.className='out msg err'; out.textContent=f.dataset.err; }); }); })();
+  </script>
+</Base>

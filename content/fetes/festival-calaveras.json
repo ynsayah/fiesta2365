@@ -1,0 +1,63 @@
+{
+  "slug": "festival-calaveras",
+  "continent": "ameriques",
+  "category": "morts",
+  "fame": "regional",
+  "geo": {
+    "lat": 21.8818,
+    "lng": -102.2916
+  },
+  "place": "Aguascalientes",
+  "country": {
+    "fr": "Mexique",
+    "en": "Mexico"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-10-28",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Annuel : fin octobre - début novembre",
+  "name": {
+    "fr": "Festival de las Calaveras",
+    "en": "Festival of the Skulls"
+  },
+  "description": {
+    "fr": "Dans la ville du graveur José Guadalupe Posada, créateur de la Catrina : autels vivants et grand défilé de catrinas.",
+    "en": "In the home town of engraver José Guadalupe Posada, creator of La Catrina: living altars and a great catrina parade."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Festival_de_las_Calaveras,_Aguascalientes_2014_14.JPG",
+      "caption": {
+        "fr": "Festival de las Calaveras"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "q1QWndsbXws"
+    },
+    {
+      "id": "iN3XOPzO9og"
+    },
+    {
+      "id": "SGgfHdc8zBE"
+    },
+    {
+      "id": "ze-pn56EI34"
+    }
+  ],
+  "sources": [
+    "https://grupoanimal.mx/estados/festival-calaveras-2026-aguascalientes-fechas-conciertos-actividades-gratis"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

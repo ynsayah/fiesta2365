@@ -1,0 +1,54 @@
+{
+  "slug": "pagerwesi-buleleng",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": -8.112,
+    "lng": 115.088
+  },
+  "place": "Buleleng, nord de Bali",
+  "country": {
+    "fr": "Indonésie",
+    "en": "Indonesia"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-04",
+      "end": "2026-11-04"
+    }
+  ],
+  "rule": "Calendrier pawukon de 210 jours",
+  "name": {
+    "fr": "Pagerwesi et Munjung ke Setra",
+    "en": "Pagerwesi and Munjung ke Setra"
+  },
+  "description": {
+    "fr": "La « clôture de fer » spirituelle de Bali : offrandes dans les temples, et à Buleleng visite festive aux tombes des parents pas encore incinérés, avec pique-nique sur place.",
+    "en": "Bali's spiritual ‘iron fence’: temple offerings, and in Buleleng a festive visit to the graves of relatives not yet cremated, with a picnic on the spot."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [
+    {
+      "id": "0R2P4VB6A-s"
+    },
+    {
+      "id": "lWNku66RZg4"
+    },
+    {
+      "id": "y5jfO6mPFo0"
+    },
+    {
+      "id": "4qdtG3LOgo0"
+    }
+  ],
+  "sources": [
+    "https://budayabali.com/munjung-ke-setra-a-unique-pagerwesi-tradition-in-buleleng-that-few-people-know"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

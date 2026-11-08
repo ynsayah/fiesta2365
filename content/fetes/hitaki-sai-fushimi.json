@@ -1,0 +1,71 @@
+{
+  "slug": "hitaki-sai-fushimi",
+  "continent": "asie",
+  "category": "recolte",
+  "fame": "regional",
+  "geo": {
+    "lat": 34.9671,
+    "lng": 135.7727
+  },
+  "place": "Fushimi Inari-taisha, Kyoto",
+  "country": {
+    "fr": "Japon",
+    "en": "Japan"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Fixe : 8 novembre",
+  "name": {
+    "fr": "Hitaki-sai, la fête du feu",
+    "en": "Hitaki-sai fire festival"
+  },
+  "description": {
+    "fr": "Action de grâces des récoltes : des centaines de milliers de baguettes votives envoyées de tout le Japon brûlent sur trois bûchers de paille de riz pendant que les miko dansent le kagura.",
+    "en": "Harvest thanksgiving: hundreds of thousands of prayer sticks sent from all over Japan burn on three rice-straw pyres while shrine maidens dance kagura."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "20181110_Fushimi_Inari_shrine_6.jpg",
+      "caption": {
+        "fr": "Fushimi Inari"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "FushimiInariTorii.jpg",
+      "caption": {
+        "fr": "Les torii de Fushimi Inari"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "ZEWL8hi42U0"
+    },
+    {
+      "id": "zx38hD2bEdI"
+    },
+    {
+      "id": "R-b9bFZp52o"
+    },
+    {
+      "id": "nILlV6tSwCU"
+    }
+  ],
+  "sources": [
+    "https://imidas.jp/rekigyoji/detail/L-55-188-08-11-G222.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

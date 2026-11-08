@@ -1,0 +1,71 @@
+{
+  "slug": "grito-la-villa",
+  "continent": "ameriques",
+  "category": "nationale",
+  "fame": "regional",
+  "geo": {
+    "lat": 7.933,
+    "lng": -80.417
+  },
+  "place": "La Villa de Los Santos, Azuero",
+  "country": {
+    "fr": "Panama",
+    "en": "Panama"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-10",
+      "end": "2026-11-10"
+    }
+  ],
+  "rule": "Fixe : 10 novembre",
+  "name": {
+    "fr": "Primer Grito de Independencia",
+    "en": "First Cry of Independence"
+  },
+  "description": {
+    "fr": "Le bourg colonial célèbre le cri d'indépendance de 1821 lancé par Rufina Alfaro : défilés de fanfares scolaires, polleras brodées et tamboritos devant l'église San Atanasio.",
+    "en": "The colonial town celebrates the 1821 cry of independence raised by Rufina Alfaro: school band parades, embroidered polleras and tamboritos outside San Atanasio church."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Iglesia_de_San_Atanasio_-La_Villa_de_Los_Santos,_Los_Santos.jpg",
+      "caption": {
+        "fr": "Église San Atanasio"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Museo_de_la_Nacionalidad_de_La_Villa_de_Los_Santos.jpg",
+      "caption": {
+        "fr": "Musée de la Nationalité"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "-uJk0SG9rjY"
+    },
+    {
+      "id": "ORTiEblOBnE"
+    },
+    {
+      "id": "d5dIHOL5dNM"
+    },
+    {
+      "id": "Q80iBLa2RIo"
+    }
+  ],
+  "sources": [
+    "https://www.tvn-2.com/nacionales/la-villa-los-santos-celebran-orgullo-desfile-grito-de-independencia_1_2214428.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

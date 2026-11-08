@@ -1,0 +1,71 @@
+{
+  "slug": "martyrs-tbilissi",
+  "continent": "europe",
+  "category": "religieuse",
+  "fame": "regional",
+  "geo": {
+    "lat": 41.69,
+    "lng": 44.81
+  },
+  "place": "Pont de Metekhi, Tbilissi",
+  "country": {
+    "fr": "Géorgie",
+    "en": "Georgia"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-13",
+      "end": "2026-11-13"
+    }
+  ],
+  "rule": "Fixe : 13 novembre (calendrier géorgien)",
+  "name": {
+    "fr": "Fête des 100 000 martyrs de Tbilissi",
+    "en": "Feast of the 100,000 Martyrs of Tbilisi"
+  },
+  "description": {
+    "fr": "Liturgie en plein air sur le pont où, en 1226, 100 000 habitants furent tués pour avoir refusé de piétiner les icônes.",
+    "en": "Open-air liturgy on the bridge where, in 1226, 100,000 citizens were killed for refusing to trample on icons."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Metekhi_Bridge_-_Tbilisi_-_01.jpg",
+      "caption": {
+        "fr": "Pont de Metekhi"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Old_Tbilisi,_Metekhi_Bridge,_Georgia.jpg",
+      "caption": {
+        "fr": "Vieille ville et pont"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "7T50O1O5ERs"
+    },
+    {
+      "id": "aXfguhOluBI"
+    },
+    {
+      "id": "H1bYAsiVf5c"
+    },
+    {
+      "id": "3xZYCX6cyDs"
+    }
+  ],
+  "sources": [
+    "https://wander-lush.org/festivals-in-georgia-country-calendar/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

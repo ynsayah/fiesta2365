@@ -1,0 +1,41 @@
+{
+  "slug": "course-todos-santos",
+  "continent": "ameriques",
+  "category": "ancestrale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 15.51,
+    "lng": -91.604
+  },
+  "place": "Todos Santos Cuchumatán, Huehuetenango",
+  "country": {
+    "fr": "Guatemala",
+    "en": "Guatemala"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-01"
+    }
+  ],
+  "rule": "Fixe : 1er novembre",
+  "name": {
+    "fr": "Course de chevaux de Todos Santos (Skach Koyl)",
+    "en": "Todos Santos horse race (Skach Koyl)"
+  },
+  "description": {
+    "fr": "Dans ce village mam d'altitude, les cavaliers en pantalon rayé rouge et blanc galopent toute la journée d'un bout à l'autre de la piste. Tomber de cheval fait partie de la fête.",
+    "en": "In this high Mam village, riders in red-and-white striped trousers gallop up and down the track all day. Falling off is part of the fun."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://livinginguatemala.com/events/todos-santos-horse-race/"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

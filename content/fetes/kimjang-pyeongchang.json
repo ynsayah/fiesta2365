@@ -1,0 +1,71 @@
+{
+  "slug": "kimjang-pyeongchang",
+  "continent": "asie",
+  "category": "recolte",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 37.637,
+    "lng": 128.556
+  },
+  "place": "Jinbu-myeon, Pyeongchang, Gangwon",
+  "country": {
+    "fr": "Corée du Sud",
+    "en": "South Korea"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-06",
+      "end": "2026-11-16"
+    }
+  ],
+  "rule": "Annuel : début de l'hiver",
+  "name": {
+    "fr": "Festival du kimjang de Pyeongchang",
+    "en": "Pyeongchang Kimjang Festival"
+  },
+  "description": {
+    "fr": "Préparation collective du kimchi d'hiver, patrimoine de l'UNESCO, à 700 m d'altitude : on sale et assaisonne sur place les choux des hautes terres.",
+    "en": "Communal winter kimchi-making, UNESCO heritage, at 700 m altitude: highland cabbages are salted and seasoned on the spot."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg",
+      "caption": {
+        "fr": "Préparation du kimjang"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Kimchi_making.jpg",
+      "caption": {
+        "fr": "Fabrication du kimchi"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "aGXsi91meos"
+    },
+    {
+      "id": "--xfu30l87Y"
+    },
+    {
+      "id": "4TXTYjWWvbg"
+    },
+    {
+      "id": "2vul9Ygshoc"
+    }
+  ],
+  "sources": [
+    "https://news.mtn.co.kr/article/2026101912400632554"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "narkasur-goa",
+  "continent": "asie",
+  "category": "lumieres",
+  "fame": "regional",
+  "geo": {
+    "lat": 15.4909,
+    "lng": 73.8278
+  },
+  "place": "Villages et villes de Goa",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-07",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire hindou : veille de Diwali",
+  "name": {
+    "fr": "Narkasur Dahan",
+    "en": "Narkasur Dahan"
+  },
+  "description": {
+    "fr": "Chaque quartier construit un démon Narakasura géant en papier mâché ; concours et parades la nuit, puis l'effigie est brûlée avant l'aube.",
+    "en": "Every neighbourhood builds a giant papier-mâché Narakasura demon; competitions and night parades, then the effigy is burned before dawn."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Narkasur_effigy_in_Goa.jpg",
+      "caption": {
+        "fr": "Effigie de Narkasur à Goa"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "fCrRXe6hSAE"
+    },
+    {
+      "id": "HTBDBYMyhsU"
+    },
+    {
+      "id": "YaJUZyxXVe0"
+    },
+    {
+      "id": "e9_ezySTWG4"
+    }
+  ],
+  "sources": [
+    "https://hindutone.com/festivals/goa-narakasura-effigies-diwali-2026/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

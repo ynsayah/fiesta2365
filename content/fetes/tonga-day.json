@@ -1,0 +1,63 @@
+{
+  "slug": "tonga-day",
+  "continent": "oceanie",
+  "category": "nationale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": -21.1394,
+    "lng": -175.2049
+  },
+  "place": "Nuku'alofa",
+  "country": {
+    "fr": "Tonga",
+    "en": "Tonga"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-04",
+      "end": "2026-11-04"
+    }
+  ],
+  "rule": "Fixe : 4 novembre",
+  "name": {
+    "fr": "Tonga Day, fête de la Constitution",
+    "en": "Tonga Day, Constitution Day"
+  },
+  "description": {
+    "fr": "Anniversaire de la constitution de 1875 du dernier royaume polynésien : défilés, danses lakalaka et festins.",
+    "en": "Anniversary of the 1875 constitution of the last Polynesian kingdom: parades, lakalaka dances and feasts."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Lakalaka.jpg",
+      "caption": {
+        "fr": "Danse lakalaka"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "zG5tO79gPjY"
+    },
+    {
+      "id": "o9_L8y8lSh4"
+    },
+    {
+      "id": "NnPZIV4fq0Y"
+    },
+    {
+      "id": "B3jgN6NvBK0"
+    }
+  ],
+  "sources": [
+    "https://www.tongatourism.travel/plan/calendar-events"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "st-martin-day",
+  "continent": "ameriques",
+  "category": "nationale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 18.068,
+    "lng": -63.082
+  },
+  "place": "Marigot et Philipsburg",
+  "country": {
+    "fr": "Saint-Martin",
+    "en": "Saint Martin"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Fixe : 11 novembre",
+  "name": {
+    "fr": "St. Martin Day",
+    "en": "St. Martin Day"
+  },
+  "description": {
+    "fr": "Seule fête célébrée ensemble par les côtés français et néerlandais de l'île : cérémonie à la frontière, musique et cuisine créole.",
+    "en": "The only holiday celebrated jointly by the French and Dutch sides of the island: a ceremony at the border, music and Creole food."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Marigot,_Saint_Martin_(15648526873).jpg",
+      "caption": {
+        "fr": "Marigot"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "ZrSitOliJu0"
+    },
+    {
+      "id": "7Ib3qlGlBAw"
+    }
+  ],
+  "sources": [
+    "https://calendarific.com/holiday/saint-martin/saint-martins-day"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

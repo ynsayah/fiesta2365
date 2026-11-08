@@ -1,0 +1,79 @@
+{
+  "slug": "zhalete-hani",
+  "continent": "asie",
+  "category": "recolte",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 23.122,
+    "lng": 102.768
+  },
+  "place": "Villages hani de Honghe (Yuanyang, Lüchun), Yunnan",
+  "country": {
+    "fr": "Chine",
+    "en": "China"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-14",
+      "end": "2026-11-16"
+    }
+  ],
+  "rule": "Lunaire hani : premier jour du dragon du 10e mois (date à confirmer)",
+  "name": {
+    "fr": "Zhalete, Nouvel An hani et banquet des longues rues",
+    "en": "Zhalete, Hani New Year and long-street banquet"
+  },
+  "description": {
+    "fr": "Un village entier dîne sur une seule table qui serpente dans les ruelles, au-dessus des rizières en terrasses du Yunnan, pour fêter la nouvelle année hani.",
+    "en": "A whole village dines at one single table winding through the lanes above Yunnan's rice terraces to celebrate the Hani new year."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Ethnic_Hani_Headgear_China.jpg",
+      "caption": {
+        "fr": "Coiffe hani"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Yuanyang_hani_farmer.jpg",
+      "caption": {
+        "fr": "Paysan hani de Yuanyang"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Hani_Rice_Terraces_(53696480740).jpg",
+      "caption": {
+        "fr": "Rizières en terrasses hani"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "JvWinBrCWt8"
+    },
+    {
+      "id": "ZWxbudIQakI"
+    },
+    {
+      "id": "kR35xkwfiqc"
+    },
+    {
+      "id": "1wwiWgCe8ms"
+    }
+  ],
+  "sources": [
+    "https://yunnanexplorer.com/festivals/zhaleite"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

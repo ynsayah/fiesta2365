@@ -1,0 +1,71 @@
+{
+  "slug": "independencia-cartagena",
+  "continent": "ameriques",
+  "category": "nationale",
+  "fame": "celebre",
+  "geo": {
+    "lat": 10.391,
+    "lng": -75.4794
+  },
+  "place": "Cartagena de Indias, Bolívar",
+  "country": {
+    "fr": "Colombie",
+    "en": "Colombia"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-06",
+      "end": "2026-11-16"
+    }
+  ],
+  "rule": "Annuel : autour du 11 novembre",
+  "name": {
+    "fr": "Fiestas de la Independencia",
+    "en": "Independence Festivities"
+  },
+  "description": {
+    "fr": "Fêtes de rue afro-caribéennes de l'indépendance de 1811 : cabildos de quartier, lanceros, buscapiés et masques, offrande florale le 11 et grand défilé le 12.",
+    "en": "Afro-Caribbean street festivities for the 1811 independence: neighbourhood cabildos, lanceros, firecrackers and masks, a floral offering on the 11th and the grand parade on the 12th."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Fireworks_over_the_Historic_Center_of_Cartagena,_Colombia_(24485282616).jpg",
+      "caption": {
+        "fr": "Feux d'artifice sur la vieille ville"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Barrio_getsemani.jpg",
+      "caption": {
+        "fr": "Getsemaní"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "0JrKPhhlO-c"
+    },
+    {
+      "id": "hTb9QxlKY2g"
+    },
+    {
+      "id": "T9nGxdI1y2s"
+    },
+    {
+      "id": "o28tAwYdZN8"
+    }
+  ],
+  "sources": [
+    "https://www.eluniversal.com.co/farandula/2026/09/16/fiestas-de-la-independencia-2026-la-agenda-oficial-y-artistas-confirmados/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

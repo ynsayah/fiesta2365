@@ -1,0 +1,60 @@
+{
+  "slug": "fiestas-san-martin-salvador",
+  "continent": "ameriques",
+  "category": "patronale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 13.737,
+    "lng": -89.056
+  },
+  "place": "San Martín, San Salvador Este",
+  "country": {
+    "fr": "Salvador",
+    "en": "El Salvador"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Annuel : jusqu'au 11 novembre",
+  "name": {
+    "fr": "Fiestas patronales de San Martín",
+    "en": "San Martín patron-saint festivities"
+  },
+  "description": {
+    "fr": "Fêtes de quartier à l'ancienne : banda de cuero et atol shuco à l'aube, cavalcade et jaripeo, défilé de clôture et feu d'artifice, quema de toritos.",
+    "en": "Old-style neighbourhood festivities: dawn banda de cuero and atol shuco, cavalcade and rodeo, closing parade, fireworks and burning ‘toritos’."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Quema_de_toritos_pirotécnicos.jpg",
+      "caption": {
+        "fr": "Quema de toritos"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "LPtmeBE2fnM"
+    },
+    {
+      "id": "Is3H22mUcQc"
+    },
+    {
+      "id": "nH8arfm4uuE"
+    }
+  ],
+  "sources": [
+    "https://www.elsalvador.com/turismo/cultura-viva/fiestas-patronales-san-martin-agenda/1302040/2026/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

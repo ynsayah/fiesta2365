@@ -1,0 +1,71 @@
+{
+  "slug": "san-martin-chile-verde",
+  "continent": "ameriques",
+  "category": "patronale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 14.824,
+    "lng": -91.644
+  },
+  "place": "San Martín Sacatepéquez, Quetzaltenango",
+  "country": {
+    "fr": "Guatemala",
+    "en": "Guatemala"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Fixe : 11 novembre, Saint-Martin",
+  "name": {
+    "fr": "Feria de San Martín « Chile Verde »",
+    "en": "San Martín ‘Chile Verde’ fair"
+  },
+  "description": {
+    "fr": "Fête patronale d'un village maya mam, célèbre pour le costume blanc à longues franges rouges des hommes : messe, procession, marimba et fanfare villageoise.",
+    "en": "Patron-saint fair of a Mam Maya village famous for the men's white costume with long red fringes: mass, procession, marimba and village band."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "San_Martín_Sacatepéquez_01.JPG",
+      "caption": {
+        "fr": "Le village"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "San_Martín_Sacatepéquez_18.JPG",
+      "caption": {
+        "fr": "Paysage de Chile Verde"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "0Ff40BpdySM"
+    },
+    {
+      "id": "hIsMtKWUoXc"
+    },
+    {
+      "id": "WeAPCHCCqFM"
+    },
+    {
+      "id": "y52wlWTa6g4"
+    }
+  ],
+  "sources": [
+    "https://livinginguatemala.com/ferias/november/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

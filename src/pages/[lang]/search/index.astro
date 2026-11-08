@@ -1,0 +1,35 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, t, LOCALES } from '../../../i18n/ui.js';
+import { clientIndex } from '../../../lib/data.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params; const T = t(lang);
+const idx = clientIndex(lang).map((x) => ({ ...x, kl: T.cont_l[x.k], tl: T.cat_l[x.t] }));
+---
+<Base lang={lang} title={T.search_title} description={T.search_placeholder} path="search/">
+  <section class="section wrap">
+    <div class="section-head"><h1 style="font-size:var(--step-3)">{T.search_title}</h1></div>
+    <form class="searchbox" role="search" onsubmit="return false"><label class="sr" for="q">{T.search_title}</label><input id="q" type="search" placeholder={T.search_placeholder} autocomplete="off" /></form>
+    <p class="note" id="count" style="margin-top:12px" data-tpl={T.search_results} data-none={T.search_none}></p>
+    <div class="results" id="res" data-locale={LOCALES[lang]}></div>
+  </section>
+  <script is:inline define:vars={{ idx, lang }}>
+  (function(){
+    var q=document.getElementById('q'), res=document.getElementById('res'), cnt=document.getElementById('count');
+    var base=document.documentElement.dataset.base||'/', suf=document.documentElement.dataset.idx||'';
+    var loc=res.dataset.locale;
+    function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+    idx.forEach(function(f){ f.hay=norm([f.n,f.p,f.c,f.kl,f.tl,f.d].join(' ')); });
+    function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+    function fmtd(a,b){var o={day:'numeric',month:'short'};var s=new Date(a+'T12:00:00').toLocaleDateString(loc,o);return a===b?s:s+' – '+new Date(b+'T12:00:00').toLocaleDateString(loc,o);}
+    function run(){
+      var words=norm(q.value).split(/\s+/).filter(Boolean);
+      var r=idx.filter(function(f){return words.every(function(w){return f.hay.indexOf(w)>=0})});
+      cnt.textContent=r.length?cnt.dataset.tpl.replace('{n}',r.length):cnt.dataset.none;
+      res.innerHTML=r.map(function(f){return '<a class="result" href="'+base+lang+'/festivals/'+f.s+'/'+suf+'"><span class="thumb" style="background-image:url('+base+'posters/'+f.s+'.svg)"></span><span><strong>'+esc(f.n)+'</strong><small>'+esc(fmtd(f.a,f.b))+' · '+esc(f.p)+' · '+esc(f.c)+'</small><small>'+esc(f.tl)+'</small></span></a>'}).join('');
+    }
+    var p=new URLSearchParams(location.search).get('q'); if(p) q.value=p;
+    q.addEventListener('input',run); run();
+  })();
+  </script>
+</Base>

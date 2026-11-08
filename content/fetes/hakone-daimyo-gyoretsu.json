@@ -1,0 +1,54 @@
+{
+  "slug": "hakone-daimyo-gyoretsu",
+  "continent": "asie",
+  "category": "ancestrale",
+  "fame": "regional",
+  "geo": {
+    "lat": 35.233,
+    "lng": 139.105
+  },
+  "place": "Hakone-Yumoto, Kanagawa",
+  "country": {
+    "fr": "Japon",
+    "en": "Japan"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-03",
+      "end": "2026-11-03"
+    }
+  ],
+  "rule": "Fixe : 3 novembre",
+  "name": {
+    "fr": "Hakone Daimyō Gyōretsu",
+    "en": "Hakone Daimyō Gyōretsu"
+  },
+  "description": {
+    "fr": "Près de 170 figurants en costumes d'Edo rejouent la procession d'un seigneur féodal sur l'ancienne route du Tōkaidō.",
+    "en": "Some 170 performers in Edo-period dress re-enact a feudal lord's procession along the old Tōkaidō road."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [
+    {
+      "id": "6ZDxWOoHmso"
+    },
+    {
+      "id": "w3DJ_287IP4"
+    },
+    {
+      "id": "qWjBuNKwVb8"
+    },
+    {
+      "id": "9hw-G1ibz54"
+    }
+  ],
+  "sources": [
+    "https://en.japantravel.com/kanagawa/hakone-daimyo-gyoretsu/46081"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

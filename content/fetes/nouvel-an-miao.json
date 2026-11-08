@@ -1,0 +1,63 @@
+{
+  "slug": "nouvel-an-miao",
+  "continent": "asie",
+  "category": "recolte",
+  "fame": "regional",
+  "geo": {
+    "lat": 26.492,
+    "lng": 108.17
+  },
+  "place": "Leishan (Xijiang), Guizhou",
+  "country": {
+    "fr": "Chine",
+    "en": "China"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-05",
+      "end": "2026-12-31"
+    }
+  ],
+  "rule": "Lunaire miao : fin des récoltes (date à confirmer)",
+  "name": {
+    "fr": "Nouvel An miao",
+    "en": "Miao New Year"
+  },
+  "description": {
+    "fr": "Les Miao fêtent la fin des récoltes : femmes parées de lourdes coiffes d'argent, joutes de lusheng, combats de buffles et banquets de rue.",
+    "en": "The Miao celebrate the end of the harvest: women in heavy silver headdresses, lusheng pipe contests, buffalo fights and street banquets."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Danjiang,_Miao_village,_women_at_festival_(40917045964).jpg",
+      "caption": {
+        "fr": "Femmes miao en fête à Danjiang"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "yuxrI1Dei4U"
+    },
+    {
+      "id": "RD84UnA3F6M"
+    },
+    {
+      "id": "kAvibAhsyCQ"
+    },
+    {
+      "id": "IieF3xbGY0s"
+    }
+  ],
+  "sources": [
+    "https://news.cri.cn/20251107/e07e9aa7-2887-47f9-9164-3e6626cd5f38.html"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

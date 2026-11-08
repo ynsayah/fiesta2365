@@ -1,0 +1,79 @@
+{
+  "slug": "fiesta-de-la-tradicion",
+  "continent": "ameriques",
+  "category": "ancestrale",
+  "fame": "celebre",
+  "geo": {
+    "lat": -34.244,
+    "lng": -59.473
+  },
+  "place": "San Antonio de Areco, Buenos Aires",
+  "country": {
+    "fr": "Argentine",
+    "en": "Argentina"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-13",
+      "end": "2026-11-15"
+    }
+  ],
+  "rule": "Annuel : autour du 10 novembre (Día de la Tradición)",
+  "name": {
+    "fr": "Fiesta de la Tradición",
+    "en": "Fiesta de la Tradición"
+  },
+  "description": {
+    "fr": "La grande fête gaucha de la pampa : plus de 2 500 cavaliers en tenue criolla défilent, jineteadas, peñas folkloriques et asado au parc criollo Ricardo Güiraldes.",
+    "en": "The great gaucho festival of the pampas: more than 2,500 riders in criollo dress parade, with rodeo, folk peñas and asado at the Ricardo Güiraldes park."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "San_Antonio_de_Areco-Fiesta_de_la_Tradición.jpg",
+      "caption": {
+        "fr": "Fiesta de la Tradición à Areco"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Indumentaria_Gaucha_02.jpg",
+      "caption": {
+        "fr": "Tenue gaucha"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Puente_Viejo_-_San_Antonio_de_Areco.jpg",
+      "caption": {
+        "fr": "Le vieux pont d'Areco"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "KzUJBDkSsu4"
+    },
+    {
+      "id": "ctI3AMIB7jU"
+    },
+    {
+      "id": "UaGaL-sNa8w"
+    },
+    {
+      "id": "k3aK9mr6lSY"
+    }
+  ],
+  "sources": [
+    "https://www.codigobaires.com.ar/2026-11-04/se-viene-la-fiesta-de-la-tradicion-a-san-antonio-de-areco-251712/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

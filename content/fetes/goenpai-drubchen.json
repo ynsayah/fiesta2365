@@ -1,0 +1,63 @@
+{
+  "slug": "goenpai-drubchen",
+  "continent": "asie",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 27.499,
+    "lng": 90.507
+  },
+  "place": "Trongsa Dzong",
+  "country": {
+    "fr": "Bhoutan",
+    "en": "Bhutan"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-14",
+      "end": "2026-11-16"
+    }
+  ],
+  "rule": "Lunaire bhoutanais (date à confirmer)",
+  "name": {
+    "fr": "Goenpai Drubchen",
+    "en": "Goenpai Drubchen"
+  },
+  "description": {
+    "fr": "Rituel tantrique de trois jours dédié au protecteur Mahakala : moines et gomchen dansent des cham masqués pour chasser les forces néfastes.",
+    "en": "Three-day tantric ritual for the protector Mahakala: monks and lay gomchen perform masked cham dances to drive away harmful forces."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "TrongsaDzong.jpg",
+      "caption": {
+        "fr": "Trongsa Dzong"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "RcZzXEIZamk"
+    },
+    {
+      "id": "LdhMv9L7H7g"
+    },
+    {
+      "id": "IFJAsDyixXQ"
+    },
+    {
+      "id": "eGXTz10o1BY"
+    }
+  ],
+  "sources": [
+    "https://www.windhorsetours.com/festival/goenpai-drubchen/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

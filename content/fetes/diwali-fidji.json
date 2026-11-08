@@ -1,0 +1,63 @@
+{
+  "slug": "diwali-fidji",
+  "continent": "oceanie",
+  "category": "lumieres",
+  "fame": "regional",
+  "geo": {
+    "lat": -17.7765,
+    "lng": 177.4356
+  },
+  "place": "Lautoka, Nadi, Ba et Suva",
+  "country": {
+    "fr": "Fidji",
+    "en": "Fiji"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Lunaire hindou : Diwali (jour férié)",
+  "name": {
+    "fr": "Diwali aux Fidji",
+    "en": "Diwali in Fiji"
+  },
+  "description": {
+    "fr": "Fête nationale des Indo-Fidjiens, descendants des travailleurs des champs de canne : maisons bordées de diyas, feux d'artifice et sucreries partagées avec les voisins.",
+    "en": "National holiday of Indo-Fijians, descended from sugar-cane labourers: homes lined with diyas, fireworks and sweets shared with neighbours."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Nadi_Sri_Siva_Subramaniya_Temple.jpg",
+      "caption": {
+        "fr": "Temple de Nadi"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "stc10CYvKpA"
+    },
+    {
+      "id": "IYRzSqPyW6c"
+    },
+    {
+      "id": "BMBN4gEkFtM"
+    },
+    {
+      "id": "OekVVSvD0X0"
+    }
+  ],
+  "sources": [
+    "https://hindutone.com/festivals/diwali-2026-fiji/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

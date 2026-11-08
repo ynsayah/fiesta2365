@@ -1,0 +1,79 @@
+{
+  "slug": "fiesta-de-las-natitas",
+  "continent": "ameriques",
+  "category": "morts",
+  "fame": "regional",
+  "geo": {
+    "lat": -16.4897,
+    "lng": -68.1193
+  },
+  "place": "Cimetière général, La Paz",
+  "country": {
+    "fr": "Bolivie",
+    "en": "Bolivia"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "rule": "Fixe : 8 novembre, une semaine après la Toussaint",
+  "name": {
+    "fr": "Fiesta de las Ñatitas",
+    "en": "Fiesta de las Ñatitas"
+  },
+  "description": {
+    "fr": "Huit jours après la Toussaint, les Paceños portent au cimetière des crânes humains coiffés de bonnets, de lunettes noires et de couronnes de fleurs. On leur offre cigarettes, coca et musique en échange de leur protection, puis on les fait bénir.",
+    "en": "Eight days after All Saints, La Paz families bring human skulls to the cemetery, dressed in woolly hats, sunglasses and flower crowns. They offer them cigarettes, coca and music in exchange for protection, then have them blessed."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Ñatita.jpg",
+      "caption": {
+        "fr": "Une ñatita parée"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Ñatita_9838.jpg",
+      "caption": {
+        "fr": "Crâne fleuri"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Ñatita_01.jpg",
+      "caption": {
+        "fr": "Ñatita et offrandes"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "AU8aRvJ3by4"
+    },
+    {
+      "id": "sIgzlQPR0d4"
+    },
+    {
+      "id": "S_u_aonlFiE"
+    },
+    {
+      "id": "daaQ4IKnl_w"
+    }
+  ],
+  "sources": [
+    "https://www.atlasobscura.com/articles/fiesta-de-las-natitas"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

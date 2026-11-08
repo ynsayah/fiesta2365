@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, t } from '../../../i18n/ui.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params; const T = t(lang);
+---
+<Base lang={lang} title={T.legal_title} path="legal/">
+  <section class="section wrap prose" lang="fr">
+    <h1 style="font-size:var(--step-3)">{T.legal_title}</h1>
+    <h2>Éditeur</h2><p>[À compléter par l’éditeur : nom ou raison sociale, adresse, directeur de la publication.] Contact : contact@fiesta365.org.</p>
+    <h2>Hébergement</h2><p>o2switch, Clermont-Ferrand, France. [Adresse exacte à reporter depuis o2switch.fr.]</p>
+    <h2>Données personnelles</h2>
+    <p>Le formulaire de contact et le forum collectent un pseudo, une adresse email et le message. L’email n’est jamais publié ; il sert uniquement à répondre et à prévenir d’une réponse. Les messages du forum sont publiés après modération.</p>
+    <p>[À valider par l’éditeur] Durée de conservation : messages du forum tant qu’ils sont en ligne ; emails de contact 12 mois. Les adresses IP servent seulement à limiter le spam (empreinte tronquée, conservée 30 jours).</p>
+    <p>Vous pouvez demander l’accès, la rectification ou la suppression de vos données à contact@fiesta365.org. Réclamation possible auprès de la CNIL (cnil.fr).</p>
+    <h2>Cookies et services tiers</h2>
+    <p>Le site ne dépose pas de cookie de mesure d’audience. Le thème choisi est mémorisé dans votre navigateur. Les vidéos YouTube ne se chargent qu’au clic, via youtube-nocookie.com. Les photos proviennent de Wikimedia Commons ; les polices, de Google Fonts.</p>
+    <h2>Crédits</h2><p>Photos : Wikimedia Commons, sous licences libres (auteur et licence sur chaque page Commons). Fond de carte : Natural Earth (domaine public). Une partie des textes et des traductions est produite avec l’aide d’une intelligence artificielle puis relue.</p>
+  </section>
+</Base>

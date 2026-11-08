@@ -1,0 +1,106 @@
+---
+import Base from '../../../layouts/Base.astro';
+import WorldMap from '../../../components/WorldMap.astro';
+import FeteCard from '../../../components/FeteCard.astro';
+import Forum from '../../../components/Forum.astro';
+import { LANGS, t, LOCALES } from '../../../i18n/ui.js';
+import { FETES, L, nameOf, fmtRange, commonsImg, commonsPage, nearby } from '../../../lib/data.js';
+export function getStaticPaths() { return LANGS.flatMap((lang) => FETES.map((f) => ({ params: { lang, slug: f.slug }, props: { f } }))); }
+const { lang } = Astro.params; const { f } = Astro.props;
+const T = t(lang);
+const name = nameOf(f, lang);
+const desc = L(f.description, lang);
+const cover = f.photos.find((p) => p.role === 'fete') || f.photos[0];
+const near = nearby(f, 4);
+const ids = f.videos.map((v) => v.id);
+const playlist = ids.length ? 'https://www.youtube.com/watch_videos?video_ids=' + ids.join(',') : null;
+const jsonld = {
+  '@context': 'https://schema.org', '@type': 'Event', name, description: desc.text,
+  startDate: f.dates[0].start, endDate: f.dates[0].end, eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode', eventStatus: 'https://schema.org/EventScheduled',
+  location: { '@type': 'Place', name: f.place, address: { '@type': 'PostalAddress', addressLocality: f.place, addressCountry: L(f.country, 'en').text }, geo: { '@type': 'GeoCoordinates', latitude: f.geo.lat, longitude: f.geo.lng } },
+  image: cover ? [commonsImg(cover.file, 1200)] : undefined, url: `https://fiesta365.org/${lang}/festivals/${f.slug}/`, inLanguage: lang,
+};
+---
+<Base lang={lang} title={name} description={desc.text.slice(0, 160)} path={`festivals/${f.slug}/`} jsonld={jsonld} image={cover ? commonsImg(cover.file, 1200) : `https://fiesta365.org/posters/${f.slug}.svg`}>
+  <section class="night">
+    <div class="fhero">
+      <figure class="art" style={`background-image:url(/posters/${f.slug}.svg);margin:0`}>
+        {cover && <img src={commonsImg(cover.file, 1400)} alt={L(cover.caption, lang).text} referrerpolicy="no-referrer" onerror="this.remove()" />}
+        {cover && <figcaption>{L(cover.caption, lang).text}{cover.role !== 'fete' ? ` (${T['photo_role_' + cover.role]})` : ''}</figcaption>}
+      </figure>
+      <div class="txt">
+        <span class="when">{fmtRange(f, LOCALES[lang])} {f.dates[0].year}</span>
+        <h1 dir="auto" lang={L(f.name, lang).lang}>{name}</h1>
+        <span class="where" dir="auto">{f.place} · {L(f.country, lang).text}</span>
+        <p class="lede" lang={desc.lang} dir="auto">{desc.text}</p>
+        {desc.lang !== lang && T.translation_note && <p class="fallback-lang" style="color:#A5AFCB">{T.translation_note}</p>}
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <dl class="facts">
+      <div><dt>{T.dates}</dt><dd>{fmtRange(f, LOCALES[lang])} {f.dates[0].year}</dd></div>
+      <div><dt>{T.place}</dt><dd>{f.place}, {L(f.country, lang).text}</dd></div>
+      <div><dt>{T.category}</dt><dd>{T.cat_l[f.category]}</dd></div>
+      <div><dt>{T.fame}</dt><dd>{T.fame_l[f.fame]}</dd></div>
+      {lang === 'fr' && <div><dt>{T.rule}</dt><dd>{f.rule}</dd></div>}
+    </dl>
+    <p class="note" style="margin-top:10px">{T.dates_check}</p>
+  </section>
+
+  <section class="section wrap" style="padding-top:0" aria-labelledby="h-ph">
+    <div class="section-head"><h2 id="h-ph">{T.photos}</h2><p>{T.photo_credit}</p></div>
+    {f.photos.length ? (
+      <div class="gallery">
+        {f.photos.map((p) => (
+          <figure>
+            <a class="ph" href={commonsPage(p.file)} style={`background-image:url(/posters/${f.slug}.svg)`} rel="noopener" target="_blank">
+              <img src={commonsImg(p.file, 640)} alt={L(p.caption, lang).text} loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />
+            </a>
+            <figcaption>{L(p.caption, lang).text}{p.role !== 'fete' ? ` (${T['photo_role_' + p.role]})` : ''}</figcaption>
+          </figure>))}
+      </div>) : <p class="note">{T.no_photo}</p>}
+    <p style="margin-top:14px"><a href={`https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(f.name.en + ' ' + f.place.split(',')[0])}&title=Special:MediaSearch&type=image`} rel="noopener" target="_blank">{T.more_photos}</a></p>
+  </section>
+
+  <section class="section wrap" style="padding-top:0" aria-labelledby="h-vid">
+    <div class="section-head"><h2 id="h-vid">{T.videos}</h2></div>
+    {ids.length ? (<>
+      <div class="videos">
+        {ids.map((id, i) => (
+          <button class="yt" type="button" data-id={id} data-list={ids.join(',')} aria-label={`${T.play} ${i + 1}`}>
+            <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />
+            <span class="play"><span><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="#E8A33D" d="M8 5v14l11-7z"/></svg></span></span>
+          </button>))}
+      </div>
+      <p style="margin-top:14px"><a href={playlist} rel="noopener" target="_blank">{T.open_playlist}</a></p></>) : <p class="note">{T.no_video}</p>}
+  </section>
+
+  <section class="section wrap two" style="padding-top:0">
+    <div>
+      <h2 style="font-size:var(--step-2);margin-bottom:16px">{T.nearby}</h2>
+      <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{near.map(({ f: x }) => <FeteCard lang={lang} f={x} />)}</div>
+    </div>
+    <div>
+      <h2 style="font-size:var(--step-2);margin-bottom:16px">{T.on_map}</h2>
+      <div class="mini"><WorldMap lang={lang} focus={f.slug} compact id="mini" /></div>
+      <h2 style="font-size:var(--step-2);margin:28px 0 12px">{T.sources}</h2>
+      <ul>{f.sources.map((s) => <li><a href={s} rel="noopener nofollow" target="_blank">{new URL(s).hostname.replace(/^www\./, '')}</a></li>)}</ul>
+    </div>
+  </section>
+
+  <section class="section wrap" style="padding-top:0" id="forum">
+    <Forum lang={lang} fete={f.slug} title={T.forum_fete_title} />
+  </section>
+
+  <script is:inline>
+  document.querySelectorAll('button.yt').forEach(function(b){b.addEventListener('click',function(){
+    var others=b.dataset.list.split(',').filter(function(x){return x!==b.dataset.id}).join(',');
+    var f=document.createElement('iframe');
+    f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0'+(others?'&playlist='+others:'');
+    f.allow='autoplay; encrypted-media; picture-in-picture'; f.allowFullscreen=true; f.title=b.getAttribute('aria-label');
+    var box=document.createElement('div'); box.className='yt'; box.appendChild(f); b.replaceWith(box); f.focus();
+  });});
+  </script>
+</Base>

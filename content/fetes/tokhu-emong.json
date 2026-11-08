@@ -1,0 +1,41 @@
+{
+  "slug": "tokhu-emong",
+  "continent": "asie",
+  "category": "recolte",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 26.1,
+    "lng": 94.26
+  },
+  "place": "Wokha et villages lotha, Nagaland",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-07",
+      "end": "2026-11-07"
+    }
+  ],
+  "rule": "Fixe : 7 novembre",
+  "name": {
+    "fr": "Tokhü Emong",
+    "en": "Tokhü Emong"
+  },
+  "description": {
+    "fr": "Fête post-récolte des Naga lotha : partage de nourriture avec les voisins, pardon des offenses, concours de tenues traditionnelles et chants polyphoniques.",
+    "en": "Post-harvest festival of the Lotha Naga: food shared with neighbours, forgiveness of grievances, traditional dress contests and polyphonic singing."
+  },
+  "translations_machine": [],
+  "photos": [],
+  "videos": [],
+  "sources": [
+    "https://morungexpress.com/tokhu-emong-post-harvest-festival-lotha-naga"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

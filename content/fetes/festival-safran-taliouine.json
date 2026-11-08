@@ -1,0 +1,60 @@
+{
+  "slug": "festival-safran-taliouine",
+  "continent": "afrique",
+  "category": "recolte",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 30.53,
+    "lng": -7.925
+  },
+  "place": "Taliouine, Taroudant, Souss-Massa",
+  "country": {
+    "fr": "Maroc",
+    "en": "Morocco"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-12",
+      "end": "2026-11-15"
+    }
+  ],
+  "rule": "Annuel : mi-novembre, pendant la récolte (date à confirmer)",
+  "name": {
+    "fr": "Festival du safran de Taliouine",
+    "en": "Taliouine Saffron Festival"
+  },
+  "description": {
+    "fr": "Au pied du Siroua, fête de l'« or rouge » en pleine récolte des crocus : coopératives de femmes, souk du safran, ahwach et musiques amazighes.",
+    "en": "At the foot of Mount Siroua, a celebration of ‘red gold’ at the height of the crocus harvest: women's cooperatives, a saffron souk, ahwach dancing and Amazigh music."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "The_Tislit_Gorges_in_Taliouine,_Morocco.jpg",
+      "caption": {
+        "fr": "Gorges de Tislit à Taliouine"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "NyVnYEcfxB0"
+    },
+    {
+      "id": "saRYaduEAXs"
+    },
+    {
+      "id": "8bwFRdE_NxU"
+    }
+  ],
+  "sources": [
+    "https://www.routard.com/fr/agenda/a/festival-du-safran-a-taliouine"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

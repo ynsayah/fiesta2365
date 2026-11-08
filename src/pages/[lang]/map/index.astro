@@ -1,0 +1,40 @@
+---
+import Base from '../../../layouts/Base.astro';
+import WorldMap from '../../../components/WorldMap.astro';
+import { LANGS, t } from '../../../i18n/ui.js';
+import { CONTINENTS, CATEGORIES } from '../../../lib/data.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params; const T = t(lang);
+---
+<Base lang={lang} title={T.map_title} description={T.map_intro} path="map/">
+  <section class="night" style="padding-block:clamp(24px,4vw,48px)">
+    <div class="wrap">
+      <div class="hero-head" style="margin-bottom:18px"><h1 style="color:#F6F2E8;font-size:var(--step-3)">{T.map_title}</h1><p style="color:#C9D0E6">{T.map_intro}</p></div>
+      <div class="filters" role="group" aria-label={T.continent} data-key="k">
+        <button class="chip" type="button" aria-pressed="true" data-v="">{T.filter_all}</button>
+        {CONTINENTS.map((k) => <button class="chip" type="button" aria-pressed="false" data-v={k} id={`f-${k}`}>{T.cont_l[k]}</button>)}
+      </div>
+      <div class="filters" role="group" aria-label={T.category} data-key="t">
+        <button class="chip" type="button" aria-pressed="true" data-v="">{T.filter_all}</button>
+        {CATEGORIES.map((c) => <button class="chip" type="button" aria-pressed="false" data-v={c}>{T.cat_l[c]}</button>)}
+      </div>
+      <div class="filters" role="group" aria-label={T.month} data-key="m">
+        <button class="chip" type="button" aria-pressed="true" data-v="">{T.filter_all}</button>
+        {T.months.map((m, i) => <button class="chip" type="button" aria-pressed="false" data-v={String(i + 1).padStart(2, '0')}>{m}</button>)}
+      </div>
+      <WorldMap lang={lang} id="bigmap" />
+    </div>
+  </section>
+  <script is:inline>
+  (function(){
+    var state={k:'',t:'',m:''};
+    function apply(){ window.f365Filter && window.f365Filter.bigmap(function(d){
+      if(state.k&&d.k!==state.k) return false; if(state.t&&d.t!==state.t) return false;
+      if(state.m){ var y=d.a.slice(0,4); var s=d.a.slice(5,7), e=d.b.slice(5,7); if(!(s<=state.m&&state.m<=e)) return false; }
+      return true; }); }
+    document.querySelectorAll('.filters').forEach(function(g){ g.addEventListener('click',function(e){ var b=e.target.closest('.chip'); if(!b) return;
+      g.querySelectorAll('.chip').forEach(function(x){x.setAttribute('aria-pressed', x===b)}); state[g.dataset.key]=b.dataset.v; apply(); }); });
+    var h=location.hash.slice(1); if(h){ var b=document.getElementById('f-'+h); if(b) b.click(); }
+  })();
+  </script>
+</Base>

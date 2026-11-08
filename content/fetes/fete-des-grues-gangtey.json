@@ -1,0 +1,79 @@
+{
+  "slug": "fete-des-grues-gangtey",
+  "continent": "asie",
+  "category": "nature",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 27.463,
+    "lng": 90.172
+  },
+  "place": "Monastère de Gangtey, vallée de Phobjikha",
+  "country": {
+    "fr": "Bhoutan",
+    "en": "Bhutan"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Fixe : 11 novembre (calendrier bhoutanais provisoire)",
+  "name": {
+    "fr": "Fête des grues à cou noir",
+    "en": "Black-necked Crane Festival"
+  },
+  "description": {
+    "fr": "Les villageois accueillent les grues venues du Tibet pour l'hiver : enfants costumés en grues, danses masquées et chants dans la cour du monastère, au-dessus des marais.",
+    "en": "Villagers welcome the cranes arriving from Tibet for the winter: children dressed as cranes, masked dances and songs in the monastery courtyard above the marshes."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Phobjikha.jpg",
+      "caption": {
+        "fr": "La vallée de Phobjikha"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Phobjikha_Valley,_Gangteng_Monastery_(15843416102).jpg",
+      "caption": {
+        "fr": "Le monastère de Gangtey"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "The_Phobjikha_Valley.jpg",
+      "caption": {
+        "fr": "Les marais de Phobjikha"
+      },
+      "role": "lieu",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "YH45V-oHK3w"
+    },
+    {
+      "id": "0ttUHx0VOgE"
+    },
+    {
+      "id": "YSLnHH1fog4"
+    },
+    {
+      "id": "9eN510u6SA4"
+    }
+  ],
+  "sources": [
+    "https://abto.org.bt/webroot/images/files/Tentative_Festival_Dates_2026(2).pdf"
+  ],
+  "featured": true,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

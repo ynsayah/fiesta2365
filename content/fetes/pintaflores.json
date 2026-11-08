@@ -1,0 +1,63 @@
+{
+  "slug": "pintaflores",
+  "continent": "asie",
+  "category": "patronale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 10.481,
+    "lng": 123.418
+  },
+  "place": "San Carlos City, Negros Occidental",
+  "country": {
+    "fr": "Philippines",
+    "en": "Philippines"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-10-20",
+      "end": "2026-11-05"
+    }
+  ],
+  "rule": "Annuel : fête de la ville, 4-5 novembre",
+  "name": {
+    "fr": "Pintaflores",
+    "en": "Pintaflores"
+  },
+  "description": {
+    "fr": "Les danseurs peignent leur corps de fleurs, en écho aux tatouages des Pintados précoloniaux, pour la fête de saint Charles Borromée.",
+    "en": "Dancers paint flowers on their bodies, echoing the tattoos of the pre-colonial Pintados, for the feast of St Charles Borromeo."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Pintaflores_Queen.jpg",
+      "caption": {
+        "fr": "Reine du Pintaflores"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "jfOzAO-dT2k"
+    },
+    {
+      "id": "0dZaU8X2qLc"
+    },
+    {
+      "id": "cqhGGyinV0k"
+    },
+    {
+      "id": "zHXMXr0R6HM"
+    }
+  ],
+  "sources": [
+    "https://digicastnegros.com/pinta-flores-festival-2026-activities-set-oct-20-to-nov-5-in-san-carlos/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

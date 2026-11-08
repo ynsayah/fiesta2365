@@ -1,0 +1,40 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, t } from '../../../i18n/ui.js';
+import { FETES, nameOf } from '../../../lib/data.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params; const T = t(lang);
+const year = 2026;
+const months = [...Array(12).keys()].map((m) => {
+  const first = new Date(Date.UTC(year, m, 1)); const days = new Date(Date.UTC(year, m + 1, 0)).getUTCDate();
+  const lead = (first.getUTCDay() + 6) % 7;
+  const cells = [...Array(lead).fill(null), ...[...Array(days).keys()].map((d) => {
+    const iso = `${year}-${String(m + 1).padStart(2, '0')}-${String(d + 1).padStart(2, '0')}`;
+    return { d: d + 1, iso, ev: FETES.filter((f) => f.dates[0].start <= iso && iso <= f.dates[0].end) };
+  })];
+  return { m, cells, count: new Set(cells.flatMap((c) => (c ? c.ev.map((e) => e.slug) : []))).size };
+});
+---
+<Base lang={lang} title={T.cal_title} description={T.cal_intro} path="calendar/">
+  <section class="section wrap">
+    <div class="section-head"><h1 style="font-size:var(--step-3)">{T.cal_title} {year}</h1><p>{T.cal_intro}</p></div>
+    <nav class="filters" aria-label={T.month}>{months.map(({ m, count }) => <a class="chip" href={`#m${m + 1}`} style="text-decoration:none">{T.months[m]} <span class="note">{count}</span></a>)}</nav>
+    <div class="months">
+      {months.map(({ m, cells, count }) => (
+        <section id={`m${m + 1}`} aria-labelledby={`hm${m + 1}`}>
+          <h2 id={`hm${m + 1}`} style="font-size:var(--step-2);margin-bottom:12px">{T.months[m]} {year}</h2>
+          {count === 0 ? <p class="note">{T.cal_empty}</p> : (
+            <div class="cal">
+              {T.weekdays.map((w) => <div class="h">{w}</div>)}
+              {cells.map((c) => c ? (
+                <div class="c" data-iso={c.iso}><b>{c.d}</b>{c.ev.slice(0, 4).map((f) => <a href={`/${lang}/festivals/${f.slug}/`} title={nameOf(f, lang)}>{nameOf(f, lang)}</a>)}{c.ev.length > 4 && <span class="note">+{c.ev.length - 4}</span>}</div>
+              ) : <div class="c out" aria-hidden="true"></div>)}
+            </div>)}
+        </section>))}
+    </div>
+  </section>
+  <script is:inline>
+  (function(){ var d=new Date(); var iso=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+    var c=document.querySelector('.cal .c[data-iso="'+iso+'"]'); if(c){ c.classList.add('today'); if(!location.hash) document.getElementById('m'+(d.getMonth()+1)).scrollIntoView(); } })();
+  </script>
+</Base>

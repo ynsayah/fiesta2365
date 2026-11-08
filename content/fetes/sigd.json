@@ -1,0 +1,79 @@
+{
+  "slug": "sigd",
+  "continent": "moyen-orient",
+  "category": "religieuse",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 31.76,
+    "lng": 35.235
+  },
+  "place": "Promenade Armon HaNatziv, Jérusalem",
+  "country": {
+    "fr": "Israël",
+    "en": "Israel"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-09",
+      "end": "2026-11-09"
+    }
+  ],
+  "rule": "Calendrier hébraïque : 29 Heshvan, 50 jours après Kippour",
+  "name": {
+    "fr": "Sigd",
+    "en": "Sigd"
+  },
+  "description": {
+    "fr": "Fête des Juifs d'Éthiopie (Beta Israel) : les kessim en turban blanc et ombrelles colorées lisent l'Orit en guèze face à la ville, comme jadis sur les monts du Gondar.",
+    "en": "Festival of Ethiopian Jews (Beta Israel): kessim in white turbans under colourful umbrellas read the Orit in Ge'ez facing the city, as once on the Gondar mountains."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "PikiWiki_Israel_15512_Sigd_Jerusalem.JPG",
+      "caption": {
+        "fr": "Sigd à Jérusalem"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Kessim_praying.jpg",
+      "caption": {
+        "fr": "Kessim en prière"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Sigd-27.11.08.jpg",
+      "caption": {
+        "fr": "Sigd 2008"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vJY4lHI0p2I"
+    },
+    {
+      "id": "ZQBKw80BFlM"
+    },
+    {
+      "id": "UHRVTaLZQxM"
+    },
+    {
+      "id": "8t79KGUqJEs"
+    }
+  ],
+  "sources": [
+    "https://hebcal.com/holidays/sigd-2026"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

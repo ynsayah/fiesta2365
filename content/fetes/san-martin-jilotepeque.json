@@ -1,0 +1,63 @@
+{
+  "slug": "san-martin-jilotepeque",
+  "continent": "ameriques",
+  "category": "patronale",
+  "fame": "confidentiel",
+  "geo": {
+    "lat": 14.78,
+    "lng": -90.795
+  },
+  "place": "San Martín Jilotepeque, Chimaltenango",
+  "country": {
+    "fr": "Guatemala",
+    "en": "Guatemala"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-11",
+      "end": "2026-11-11"
+    }
+  ],
+  "rule": "Fixe : 11 novembre, Saint-Martin",
+  "name": {
+    "fr": "Feria de San Martín Jilotepeque",
+    "en": "San Martín Jilotepeque fair"
+  },
+  "description": {
+    "fr": "Fête patronale d'une commune kaqchikel des hautes terres : processions, élection de la reine indigène, palo volador et danses de cofradías.",
+    "en": "Patron-saint fair of a Kaqchikel highland town: processions, election of the indigenous queen, palo volador and cofradía dances."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Mixco_Viejo_1.JPG",
+      "caption": {
+        "fr": "Site kaqchikel de Mixco Viejo"
+      },
+      "role": "contexte",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "tTDmtC0yyKk"
+    },
+    {
+      "id": "K0_5CeoVNI8"
+    },
+    {
+      "id": "lLFp_LyJzPE"
+    },
+    {
+      "id": "0UvabBSJOnM"
+    }
+  ],
+  "sources": [
+    "https://www.prensalibre.com/hemeroteca/san-martin-jilotepeque-mezcla-de-costumbres/"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}

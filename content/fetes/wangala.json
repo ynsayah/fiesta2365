@@ -1,0 +1,79 @@
+{
+  "slug": "wangala",
+  "continent": "asie",
+  "category": "recolte",
+  "fame": "regional",
+  "geo": {
+    "lat": 25.515,
+    "lng": 90.22
+  },
+  "place": "Asanang près de Tura, Garo Hills, Meghalaya",
+  "country": {
+    "fr": "Inde",
+    "en": "India"
+  },
+  "dates": [
+    {
+      "year": 2026,
+      "start": "2026-11-12",
+      "end": "2026-11-14"
+    }
+  ],
+  "rule": "Annuel : après la récolte (date à confirmer)",
+  "name": {
+    "fr": "Wangala, la fête des 100 tambours",
+    "en": "Wangala, the Hundred Drums festival"
+  },
+  "description": {
+    "fr": "Action de grâce post-récolte des Garo pour le dieu Saljong : des centaines de danseurs à plumes avancent en lignes au son des tambours longs. 50e édition en 2026.",
+    "en": "The Garo's post-harvest thanksgiving to the sun god Saljong: hundreds of plumed dancers advance in lines to long drums. 50th edition in 2026."
+  },
+  "translations_machine": [],
+  "photos": [
+    {
+      "file": "Wangala_Festival.jpg",
+      "caption": {
+        "fr": "Fête de Wangala"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Wangla_Dance_Garo_Tribe-001.jpg",
+      "caption": {
+        "fr": "Danse wangala des Garo"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    },
+    {
+      "file": "Wangala_Dance.jpg",
+      "caption": {
+        "fr": "Danseurs wangala"
+      },
+      "role": "fete",
+      "license": "voir la page Commons"
+    }
+  ],
+  "videos": [
+    {
+      "id": "wuB1R19UvC0"
+    },
+    {
+      "id": "56UGL13oBuE"
+    },
+    {
+      "id": "BoNqxQxvbDU"
+    },
+    {
+      "id": "4EPilJol81I"
+    }
+  ],
+  "sources": [
+    "https://www.officeholidays.com/holidays/india/wangala"
+  ],
+  "featured": false,
+  "added": "2026-11-08",
+  "updated": "2026-11-08",
+  "by": "import Fêtes du monde"
+}
