@@ -12,4 +12,8 @@ return [
   'github_repo'   => 'ynsayah/fiesta2365',
   'github_branch' => 'main',
   'rate_per_hour' => 5,
+  // Origines autorisées à appeler l'API depuis le navigateur (site sur Vercel + domaines o2switch).
+  'cors_origins' => ['https://fiesta365.org', 'https://www.fiesta365.org', 'https://new.fiesta365.org'],
+  // Aperçus Vercel : https://fiesta2365.vercel.app, https://fiesta2365-git-v3-<compte>.vercel.app… Adapter au nom du projet Vercel.
+  'cors_pattern' => '#^https://fiesta2?365(-[a-z0-9-]+)?\.vercel\.app$#',
 ];

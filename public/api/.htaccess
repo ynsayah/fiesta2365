@@ -1,8 +1,12 @@
 Options -Indexes
-<FilesMatch "^(config\.php|config\.sample\.php|lib\.php|schema\.sql)$">
+<FilesMatch "^(config\.php|config\.sample\.php|lib\.php|schema\.sql|schema\.sqlite\.sql)$">
   Require all denied
 </FilesMatch>
 RewriteEngine On
+# Servi sous /api (fiesta365.org/api) OU à la racine du sous-domaine api.fiesta365.org.
+# Ce RewriteEngine remplace les règles du .htaccess parent : on force ici le HTTPS.
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 RewriteRule ^forum/pending\.json$ forum/pending.php [L,QSA]
 
 # Dossier cron : exécution en ligne de commande uniquement

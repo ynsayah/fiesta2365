@@ -1,7 +1,8 @@
 ---
-// Bloc forum : lit /api/forum/list.php et poste vers /api/forum/post.php (backend PHP sur o2switch).
+// Bloc forum : lit <API>/forum/list.php et poste vers <API>/forum/post.php (backend PHP sur o2switch, voir src/lib/api.js).
 // Sans backend (aperçu, hors ligne), affiche un message clair au lieu d'un formulaire cassé.
 import { t } from '../i18n/ui.js';
+import { API_BASE, API_LIVE_HOSTS } from '../lib/api.js';
 const { lang, fete = '', title } = Astro.props;
 const T = t(lang);
 const uid = 'fo' + Math.random().toString(36).slice(2, 7);
@@ -22,13 +23,13 @@ const uid = 'fo' + Math.random().toString(36).slice(2, 7);
     </form>
   </div>
 </div>
-<script is:inline define:vars={{ uid }}>
+<script is:inline define:vars={{ uid, apiBase: API_BASE, liveHosts: API_LIVE_HOSTS }}>
 (function(){
   var root=document.getElementById(uid), th=root.querySelector('.thread'), form=root.querySelector('form'), out=root.querySelector('.out');
-  var api='/api/forum/'; var fete=root.dataset.fete;
+  var api=apiBase+'/forum/'; var fete=root.dataset.fete;
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function offline(){ th.innerHTML='<p class="msg">'+esc(root.dataset.offline)+'</p>'; form.querySelector('button').disabled=true; }
-  if(location.protocol==='file:' || !/fiesta365\.org$|localhost|127\.0\.0\.1/.test(location.hostname)){ offline(); return; }
+  if(location.protocol==='file:' || !new RegExp(liveHosts).test(location.hostname)){ offline(); return; }
   fetch(api+'list.php?fete='+encodeURIComponent(fete)+'&lang='+root.dataset.lang,{headers:{Accept:'application/json'}})
     .then(function(r){ if(!r.ok) throw 0; return r.json(); })
     .then(function(j){

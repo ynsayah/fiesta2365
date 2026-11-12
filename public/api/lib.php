@@ -43,3 +43,24 @@ function notify(string $subject, string $body, ?string $replyTo = null): void {
   if ($replyTo && filter_var($replyTo, FILTER_VALIDATE_EMAIL)) $h .= "Reply-To: $replyTo\r\n";
   @mail($c['contact_to'], '=?UTF-8?B?' . base64_encode($subject) . '?=', $body, $h);
 }
+// CORS : le site statique sur Vercel (et le domaine principal) appelle cette API depuis une autre origine.
+// Origines autorisées : liste 'cors_origins' + motif 'cors_pattern' (config.php). Préflight OPTIONS géré ici.
+function cors(): void {
+  $origin = (string)($_SERVER['HTTP_ORIGIN'] ?? '');
+  $method = (string)($_SERVER['REQUEST_METHOD'] ?? '');
+  if ($origin !== '') {
+    $c = cfg();
+    $list = $c['cors_origins'] ?? ['https://fiesta365.org', 'https://www.fiesta365.org', 'https://new.fiesta365.org'];
+    $pattern = (string)($c['cors_pattern'] ?? '#^https://fiesta2?365(-[a-z0-9-]+)?\.vercel\.app$#');
+    $ok = in_array($origin, $list, true) || ($pattern !== '' && preg_match($pattern, $origin) === 1);
+    header('Vary: Origin');
+    if ($ok) {
+      header('Access-Control-Allow-Origin: ' . $origin);
+      header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+      header('Access-Control-Allow-Headers: Content-Type, Accept');
+      header('Access-Control-Max-Age: 86400');
+    }
+    if ($method === 'OPTIONS') { http_response_code($ok ? 204 : 403); exit; }
+  } elseif ($method === 'OPTIONS') { http_response_code(204); exit; }
+}
+if (PHP_SAPI !== 'cli') cors();

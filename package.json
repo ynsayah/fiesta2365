@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "check:data": "node tools/check-data.mjs"
+    "check:data": "node tools/check-data.mjs",
+    "build:vercel": "npm run check:data && astro build && node tools/strip-php.mjs"
   },
   "dependencies": {
     "astro": "^5.18.2",

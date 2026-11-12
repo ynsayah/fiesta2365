@@ -7,7 +7,7 @@ Le calendrier des fêtes du monde, mis à jour chaque jour. Cette version rempla
 - **Contenu** : une fiche JSON par fête dans `content/fetes/<slug>.json` (72 fêtes au départ, issues des éditions « Fêtes du monde » d'oct.-nov. 2026).
 - **Backend PHP léger** (`public/api/`, copié tel quel dans le site) : forum par fête avec modération, formulaire de contact, flux pour l'agent, import des réponses signées de l'agent.
 - **Agent quotidien** : tâches programmées Claude (voir `AGENT.md`) qui ajoutent des fêtes, photos et vidéos par commit dans ce dépôt, et répondent au forum et aux emails.
-- **Déploiement** : GitHub Actions → build → rsync vers o2switch (voir `DEPLOIEMENT.md`).
+- **Déploiement** : en parallèle sur **Vercel** (site statique, push GitHub → déploiement automatique, `vercel.json`) et **o2switch** (site complet + API PHP, GitHub Actions → rsync). Le forum et le contact tournent sur l'API o2switch (`/api` ou `https://api.fiesta365.org`, voir `src/lib/api.js`). Détails dans `DEPLOIEMENT.md`.
 
 ## Choix techniques (et pourquoi)
 | Sujet | Choix | Raison |

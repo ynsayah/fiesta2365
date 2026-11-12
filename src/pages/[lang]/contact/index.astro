@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import { LANGS, t } from '../../../i18n/ui.js';
+import { API_BASE, API_LIVE_HOSTS } from '../../../lib/api.js';
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
 const { lang } = Astro.params; const T = t(lang);
 ---
@@ -18,12 +19,12 @@ const { lang } = Astro.params; const T = t(lang);
       <p class="out" role="status"></p>
     </form>
   </section>
-  <script is:inline>
+  <script is:inline define:vars={{ apiBase: API_BASE, liveHosts: API_LIVE_HOSTS }}>
   (function(){ var f=document.getElementById('contact'), out=f.querySelector('.out');
-    var live=/fiesta365\.org$|localhost|127\.0\.0\.1/.test(location.hostname);
+    var live=location.protocol!=='file:' && new RegExp(liveHosts).test(location.hostname);
     if(!live){ out.className='out msg'; out.textContent=f.dataset.off; }
     f.addEventListener('submit',function(e){ e.preventDefault(); if(!live) return; if(!f.checkValidity()){ f.reportValidity(); return; }
-      fetch('/api/contact.php',{method:'POST',body:new FormData(f)}).then(function(r){ if(!r.ok) throw 0; out.className='out msg'; out.textContent=f.dataset.sent; f.reset(); })
+      fetch(apiBase+'/contact.php',{method:'POST',body:new FormData(f)}).then(function(r){ if(!r.ok) throw 0; out.className='out msg'; out.textContent=f.dataset.sent; f.reset(); })
       .catch(function(){ out.className='out msg err'; out.textContent=f.dataset.err; }); }); })();
   </script>
 </Base>
